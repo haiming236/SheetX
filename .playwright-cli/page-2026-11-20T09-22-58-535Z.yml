@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+      - link "40 渲染架构" [ref=e91]:
+        - /url: "#render-arch"
+        - generic [ref=e92]: "40"
+        - text: 渲染架构
+      - link "41 虚拟滚动" [ref=e93]:
+        - /url: "#virtual-scroll"
+        - generic [ref=e94]: "41"
+        - text: 虚拟滚动
+      - link "44 AI 助手" [ref=e95]:
+        - /url: "#ai-assistant"
+        - generic [ref=e96]: "44"
+        - text: AI 助手
+      - link "45 AI 生成" [ref=e97]:
+        - /url: "#ai-generate"
+        - generic [ref=e98]: "45"
+        - text: AI 生成
+      - link "46 AI 数据分析：智能洞察与可视化" [ref=e99]:
+        - /url: "#ai-analysis"
+        - generic [ref=e100]: "46"
+        - text: AI 数据分析：智能洞察与可视化
+      - link "47 AI 公式助手：智能生成与解释公式" [ref=e101]:
+        - /url: "#ai-formula"
+        - generic [ref=e102]: "47"
+        - text: AI 公式助手：智能生成与解释公式
+    - generic [ref=e103]:
+      - generic [ref=e104]: AI 公式助手：智能生成与解释公式
+      - generic [ref=e105]: ← →
+      - group "视图缩放" [ref=e106]:
+        - button "缩小" [ref=e107] [cursor=pointer]
+        - button "100%" [ref=e112] [cursor=pointer]
+        - button "放大" [ref=e113] [cursor=pointer]
+        - button "适应屏幕（等比）" [ref=e118] [cursor=pointer]
+      - button "全屏 / 退出全屏" [ref=e123] [cursor=pointer]
+      - button "切换到深色主题" [ref=e127] [cursor=pointer]
+  - generic [ref=e133]:
+    - banner [ref=e134]:
+      - img "Sheet X" [ref=e137]
+      - generic [ref=e141]:
+        - heading "AI 公式助手：智能生成与解释公式" [level=1] [ref=e142]
+        - generic [ref=e143]: 用自然语言描述需求，AI 帮你生成公式、解释公式、修复错误
+      - generic [ref=e144]:
+        - button "分享" [ref=e145] [cursor=pointer]
+        - button "导出" [ref=e150] [cursor=pointer]
+    - generic [ref=e154]:
+      - main [ref=e155]:
+        - generic [ref=e156]:
+          - button "开始" [ref=e157] [cursor=pointer]
+          - button "插入" [ref=e158] [cursor=pointer]
+          - button "页面布局" [ref=e159] [cursor=pointer]
+          - button "公式" [ref=e160] [cursor=pointer]
+          - button "数据" [ref=e161] [cursor=pointer]
+          - button "视图" [ref=e162] [cursor=pointer]
+          - button "帮助" [ref=e163] [cursor=pointer]
+        - generic [ref=e164]:
+          - button [ref=e165] [cursor=pointer]
+          - button [ref=e170] [cursor=pointer]
+          - button "思源黑体" [ref=e176] [cursor=pointer]
+          - button "12" [ref=e180] [cursor=pointer]
+          - button [ref=e185] [cursor=pointer]
+          - button [ref=e190] [cursor=pointer]
+          - button [ref=e194] [cursor=pointer]
+          - button [ref=e198] [cursor=pointer]
+          - button [ref=e204] [cursor=pointer]
+          - button [ref=e208] [cursor=pointer]
+          - button [ref=e212] [cursor=pointer]
+          - button "合并居中" [ref=e217] [cursor=pointer]
+        - generic [ref=e218]:
+          - textbox [ref=e219]: D2
+          - generic [ref=e220]: fx
+          - textbox [ref=e221]: =SUM(C2:C6)
+        - table [ref=e223]:
+          - rowgroup [ref=e224]:
+            - row [ref=e225]:
+              - columnheader "A 产品名称" [ref=e226]
+              - columnheader "B 单价（元）" [ref=e227]
+              - columnheader "C 数量" [ref=e228]
+              - columnheader "D 小计" [ref=e229]
+          - rowgroup [ref=e230]:
+            - row [ref=e231]:
+              - cell "MacBook Pro" [ref=e232]
+              - cell "12,999" [ref=e233]
+              - cell "2" [ref=e234]
+              - cell "25,998" [ref=e235]
+            - row [ref=e236]:
+              - cell "iPhone 17" [ref=e237]
+              - cell "7,999" [ref=e238]
+              - cell "3" [ref=e239]
+              - cell "23,997" [ref=e240]
+            - row [ref=e241]:
+              - cell "iPad Pro" [ref=e242]
+              - cell "5,999" [ref=e243]
+              - cell "5" [ref=e244]
+              - cell "29,995" [ref=e245]
+            - row [ref=e246]:
+              - cell "AirPods Pro" [ref=e247]
+              - cell "1,999" [ref=e248]
+              - cell "10" [ref=e249]
+              - cell "19,990" [ref=e250]
+            - row [ref=e251]:
+              - cell "Apple Watch" [ref=e252]
+              - cell "2,999" [ref=e253]
+              - cell "4" [ref=e254]
+              - cell "11,996" [ref=e255]
+            - row [ref=e256]:
+              - cell "合计" [ref=e257]
+              - cell "—" [ref=e258]
+              - cell "24" [ref=e259]
+              - cell "0" [ref=e260]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - text: AI 公式推荐
+            - button "换一批" [ref=e267] [cursor=pointer]
+            - button "关闭" [ref=e272] [cursor=pointer]
+          - generic [ref=e281] [cursor=pointer]:
+            - code [ref=e282]: =SUM(D2:D6)
+            - generic [ref=e283]: 计算总销售额（D2:D6）
+          - generic [ref=e289] [cursor=pointer]:
+            - code [ref=e290]: =SUM(C2:C6)
+            - generic [ref=e291]: 计算总数量（C2:C6）
+          - generic [ref=e297] [cursor=pointer]:
+            - code [ref=e298]: =AVERAGE(D2:D6)
+            - generic [ref=e299]: 计算平均销售额
+          - generic [ref=e305] [cursor=pointer]:
+            - code [ref=e306]: =AVERAGE(C2:C6)
+            - generic [ref=e307]: 计算平均数量
+      - complementary [ref=e308]:
+        - generic [ref=e309]:
+          - text: AI 公式助手
+          - button "关闭" [ref=e314] [cursor=pointer]
+        - generic [ref=e318]:
+          - generic [ref=e319]: 请帮我计算总销售额，并给出平均值
+          - generic [ref=e320]:
+            - text: 好的！我来为你生成公式。
+            - generic [ref=e321]:
+              - code [ref=e326]: =SUM(D2:D6)
+              - button "复制" [ref=e327] [cursor=pointer]
+              - button "使用" [ref=e332] [cursor=pointer]
+            - generic [ref=e336]:
+              - code [ref=e341]: =AVERAGE(D2:D6)
+              - button "复制" [ref=e342] [cursor=pointer]
+              - button "使用" [ref=e347] [cursor=pointer]
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]: 总销售额
+                - generic [ref=e358]: 0元
+              - generic [ref=e359]:
+                - generic [ref=e360]: 平均销售额
+                - generic [ref=e364]: "#DIV/0!元"
+            - generic [ref=e365]:
+              - heading "公式说明" [level=4] [ref=e366]
+              - paragraph [ref=e371]: SUM 用于计算一列或一行数值的总和。这里对指定区域逐格相加，空白单元格按 0 处理。
+              - paragraph [ref=e372]:
+                - text: 当前公式
+                - generic [ref=e373]: =SUM(C2:C6)
+                - text: 的计算结果：
+                - generic [ref=e374]: "24"
+            - generic [ref=e375]: 公式语法检查通过。
+            - generic [ref=e380]:
+              - button "有帮助" [ref=e381] [cursor=pointer]
+              - button "没帮助" [ref=e385] [cursor=pointer]
+              - button "插入到表格" [ref=e389] [cursor=pointer]
+        - generic [ref=e393]:
+          - generic [ref=e394]:
+            - textbox "描述你的计算需求…" [ref=e395]
+            - button "发送" [ref=e396] [cursor=pointer]
+          - generic [ref=e401]:
+            - button "请帮我计算总销售额，并给…" [ref=e402] [cursor=pointer]
+            - button "统计各产品的数量个数…" [ref=e403] [cursor=pointer]
+            - button "按产品名称求和 MacB…" [ref=e404] [cursor=pointer]
+    - contentinfo [ref=e405]:
+      - button "销售数据" [ref=e406] [cursor=pointer]
+      - button "产品统计" [ref=e407] [cursor=pointer]
+      - generic [ref=e408]:
+        - button [ref=e409] [cursor=pointer]
+        - generic [ref=e414]: 100%
+        - button [ref=e415] [cursor=pointer]

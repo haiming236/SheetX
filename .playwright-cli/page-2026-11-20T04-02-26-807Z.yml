@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "视图" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+    - tablist "视图切换" [ref=e10]:
+      - link "首页" [ref=e11]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e13]:
+        - /url: "#spreadsheet"
+        - generic [ref=e14]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e15]:
+        - /url: "#grid"
+        - generic [ref=e16]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e17]:
+        - /url: "#sheet-full"
+        - generic [ref=e18]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e19]:
+        - /url: "#editors"
+        - generic [ref=e20]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e21]:
+        - /url: "#virtual"
+        - generic [ref=e22]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e24]:
+        - /url: "#formula"
+        - generic [ref=e25]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e26]:
+        - /url: "#data"
+        - generic [ref=e27]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e28]:
+        - /url: "#context"
+        - generic [ref=e29]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e30]:
+        - /url: "#filter"
+        - generic [ref=e31]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e32]:
+        - /url: "#settings"
+        - generic [ref=e33]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e35]:
+        - /url: "#workbook"
+        - generic [ref=e36]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e37]:
+        - /url: "#charts"
+        - generic [ref=e38]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e39]:
+        - /url: "#pivot"
+        - generic [ref=e40]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e41]:
+        - /url: "#review"
+        - generic [ref=e42]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e43]:
+        - /url: "#validate"
+        - generic [ref=e44]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e46]:
+        - /url: "#engine"
+        - generic [ref=e47]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e48]:
+        - /url: "#print"
+        - generic [ref=e49]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e50]:
+        - /url: "#format"
+        - generic [ref=e51]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e52]:
+        - /url: "#formula-lib"
+        - generic [ref=e53]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e54]:
+        - /url: "#history"
+        - generic [ref=e55]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e56]:
+        - /url: "#import"
+        - generic [ref=e57]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e58]:
+        - /url: "#adv-filter"
+        - generic [ref=e59]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e60]:
+        - /url: "#multi-view"
+        - generic [ref=e61]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e62]:
+        - /url: "#plugins"
+        - generic [ref=e63]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e64]:
+        - /url: "#properties"
+        - generic [ref=e65]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e66]:
+        - /url: "#host"
+        - generic [ref=e67]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e68]:
+        - /url: "#datasource"
+        - generic [ref=e69]: "27"
+        - text: 数据源
+    - generic [ref=e70]:
+      - generic [ref=e71]: 数据源适配与远程加载
+      - generic [ref=e72]: ← →
+      - button "切换到深色主题" [ref=e73] [cursor=pointer]
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]: SheetX
+      - navigation [ref=e90]:
+        - button "工作表" [ref=e91] [cursor=pointer]
+        - button "数据源" [ref=e92] [cursor=pointer]
+        - button "公式" [ref=e93] [cursor=pointer]
+        - button "图表" [ref=e94] [cursor=pointer]
+        - button "视图" [ref=e95] [cursor=pointer]
+        - button "设置" [ref=e96] [cursor=pointer]
+      - generic [ref=e97]:
+        - button "搜索" [ref=e98] [cursor=pointer]
+        - button "帮助" [ref=e103] [cursor=pointer]
+        - button "设置" [ref=e109] [cursor=pointer]
+        - generic "宿主传入用户" [ref=e114]: 张
+    - generic [ref=e115]:
+      - complementary [ref=e116]:
+        - generic [ref=e117]: 数据源管理
+        - button "远程数据源" [ref=e118] [cursor=pointer]
+        - button "本地数据源" [ref=e123] [cursor=pointer]
+        - button "数据转换" [ref=e129] [cursor=pointer]
+        - button "数据缓存" [ref=e134] [cursor=pointer]
+        - button "数据绑定" [ref=e139] [cursor=pointer]
+        - generic [ref=e144]:
+          - heading "SheetX 不内置数据库" [level=4] [ref=e145]
+          - paragraph [ref=e150]: 完全依赖宿主系统提供数据接口，仅通过标准 DataAdapter 交换数据。
+          - button "了解更多" [ref=e151] [cursor=pointer]
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - button "API 接口" [ref=e157] [cursor=pointer]
+          - button "数据库" [ref=e162] [cursor=pointer]
+          - button "文件" [ref=e168] [cursor=pointer]
+          - button "自定义函数" [ref=e172] [cursor=pointer]
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e184]:
+              - heading [level=3] [ref=e185]:
+                - text: ERP 业务数据接口
+                - generic [ref=e186]: 已连接
+              - paragraph [ref=e188]: 通过 REST API 获取企业业务数据
+            - generic [ref=e189]:
+              - button "测试连接" [ref=e190] [cursor=pointer]
+              - button "刷新数据" [ref=e194] [cursor=pointer]
+          - tablist [ref=e199]:
+            - button "接口配置" [ref=e200] [cursor=pointer]
+            - button "参数设置" [ref=e201] [cursor=pointer]
+            - button "数据预览" [ref=e202] [cursor=pointer]
+            - button "使用说明" [ref=e203] [cursor=pointer]
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: 接口地址
+              - generic [ref=e207]:
+                - textbox [ref=e208]: /api/sales/orders
+                - generic [ref=e209]: "支持相对路径或完整 URL，例如: https://api.xxx.com/orders"
+            - generic [ref=e210]:
+              - generic [ref=e211]: 请求方法
+              - generic [ref=e212]:
+                - combobox [ref=e214]:
+                  - option "GET" [selected]
+                  - option "POST"
+                  - option "PUT"
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 数据格式
+                  - combobox [ref=e217]:
+                    - option "JSON" [selected]
+                    - option "XML"
+                    - option "CSV"
+            - generic [ref=e218]:
+              - generic [ref=e219]: 分页参数
+              - generic [ref=e220]:
+                - combobox [ref=e222]:
+                  - option "page" [selected]
+                  - option "offset"
+                  - option "cursor"
+                - generic [ref=e223]:
+                  - generic [ref=e224]: 每页数量
+                  - spinbutton [ref=e225]: "100"
+                - generic [ref=e226]:
+                  - generic [ref=e227]: 总条数字段
+                  - textbox [ref=e228]: total
+            - generic [ref=e229]:
+              - generic [ref=e230]: 请求参数
+              - generic [ref=e231]:
+                - textbox [ref=e232]: "{ \"status\": \"\", \"dateRange\": \"last30days\" }"
+                - button "参数助手" [ref=e233] [cursor=pointer]
+            - button "保存配置" [ref=e238] [cursor=pointer]
+      - complementary [ref=e244]:
+        - generic [ref=e245]: 高级配置
+        - generic [ref=e250]:
+          - heading "数据加载方式" [level=4] [ref=e251]
+          - generic [ref=e254] [cursor=pointer]:
+            - text: 分页加载（推荐）
+            - generic [ref=e255]: 按需加载数据，性能更优
+          - generic [ref=e258] [cursor=pointer]:
+            - text: 一次性加载
+            - generic [ref=e259]: 一次加载全部数据，适合小数据量
+        - generic [ref=e260]:
+          - heading "数据处理" [level=4] [ref=e261]
+          - generic [ref=e262]:
+            - text: 自动刷新
+            - button [ref=e263] [cursor=pointer]
+          - generic [ref=e265]:
+            - text: 支持筛选排序
+            - button [ref=e266] [cursor=pointer]
+          - generic [ref=e268]:
+            - text: 懒加载
+            - button [ref=e269] [cursor=pointer]
+        - generic [ref=e271]:
+          - heading "错误处理" [level=4] [ref=e272]
+          - generic [ref=e273]:
+            - generic [ref=e274]: 重试次数
+            - spinbutton [ref=e275]: "3"
+          - generic [ref=e276]:
+            - generic [ref=e277]: 超时时间（秒）
+            - spinbutton [ref=e278]: "30"
+        - generic [ref=e279]:
+          - heading "高级特性" [level=4] [ref=e280]
+          - generic [ref=e281] [cursor=pointer]: 支持复杂查询条件
+          - generic [ref=e286] [cursor=pointer]: 支持数据更新（增删改）
+          - generic [ref=e291] [cursor=pointer]: 启用数据缓存（IndexedDB）
+        - generic [ref=e296]:
+          - heading "开放集成" [level=4] [ref=e297]
+          - paragraph [ref=e301]: SheetX 提供标准 DataAdapter 接口，可轻松对接各种企业系统。
+          - button "查看 API 文档 →" [ref=e302] [cursor=pointer]

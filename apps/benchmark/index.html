@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheetX Benchmark · 渲染性能基准</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; color: #1f2329; background: #f5f7fb; }
+      header { padding: 14px 20px; background: #fff; border-bottom: 1px solid #e5e8ed; display: flex; align-items: center; gap: 12px; }
+      header h1 { font-size: 16px; margin: 0; }
+      header .hint { font-size: 12px; color: #8a9099; }
+      button { height: 30px; padding: 0 14px; margin-left: auto; border: 1px solid #1a73e8; border-radius: 6px; background: #1a73e8; color: #fff; cursor: pointer; }
+      button:disabled { opacity: .6; cursor: wait; }
+      main { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 14px; padding: 14px 20px 24px; }
+      #grid-host { height: 520px; background: #fff; border: 1px solid #e5e8ed; border-radius: 8px; overflow: hidden; }
+      pre { margin: 0; height: 520px; overflow: auto; padding: 12px; background: #fff; border: 1px solid #e5e8ed; border-radius: 8px; font: 11.5px/1.6 'SF Mono', Menlo, monospace; white-space: pre-wrap; }
+      @media (max-width: 1100px) { main { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SheetX 渲染性能基准</h1>
+      <span class="hint">真实浏览器 · getRenderStats() + rAF 采样 · 输出 FPS / P95 / 阻塞耗时</span>
+      <button id="run">运行全部场景</button>
+    </header>
+    <main>
+      <div id="grid-host"></div>
+      <pre id="out">点击「运行全部场景」开始。也可在控制台调用 window.__bench.runAll()。</pre>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

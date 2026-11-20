@@ -1,0 +1,38 @@
+{
+  "name": "@sheetx/io",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "导入导出：CSV、XLSX、剪贴板格式适配",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  },
+  "dependencies": {
+    "@sheetx/core": "workspace:*",
+    "@sheetx/data": "workspace:*"
+  },
+  "publishConfig": {
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  }
+}

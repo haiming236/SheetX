@@ -1,0 +1,38 @@
+{
+  "name": "@sheetx/fonts",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "SheetX 内置字体库：统一字体注册、按需加载、TTF 解析、子集化与 PDF 字体嵌入",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./assets/*": "./assets/*"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  },
+  "dependencies": {
+    "@sheetx/core": "workspace:*"
+  },
+  "publishConfig": {
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  }
+}

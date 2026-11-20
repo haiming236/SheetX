@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+    - generic [ref=e81]:
+      - generic [ref=e82]: 开发者调试与性能监控
+      - generic [ref=e83]: ← →
+      - button "切换到深色主题" [ref=e84] [cursor=pointer]
+  - generic [ref=e90]:
+    - generic [ref=e91]:
+      - img "Sheet X" [ref=e94]
+      - navigation [ref=e97]:
+        - button "文件" [ref=e98] [cursor=pointer]
+        - button "开始" [ref=e99] [cursor=pointer]
+        - button "插入" [ref=e100] [cursor=pointer]
+        - button "数据" [ref=e101] [cursor=pointer]
+        - button "公式" [ref=e102] [cursor=pointer]
+        - button "视图" [ref=e103] [cursor=pointer]
+        - button "设置" [ref=e104] [cursor=pointer]
+        - button "开发者工具" [ref=e105] [cursor=pointer]
+      - textbox "搜索功能..." [ref=e111]
+      - button "帮助" [ref=e112] [cursor=pointer]
+      - button "设置" [ref=e118] [cursor=pointer]
+      - generic "宿主用户" [ref=e123]: 张
+    - generic [ref=e124]:
+      - complementary [ref=e125]:
+        - generic [ref=e126]: 开发者工具
+        - button "性能监控" [ref=e127] [cursor=pointer]
+        - button "调试面板" [ref=e132] [cursor=pointer]
+        - button "日志管理" [ref=e139] [cursor=pointer]
+        - button "API 调试" [ref=e144] [cursor=pointer]
+        - button "组件检查" [ref=e149] [cursor=pointer]
+        - button "版本信息" [ref=e156] [cursor=pointer]
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e167]:
+            - heading "性能监控" [level=2] [ref=e168]
+            - paragraph [ref=e169]: 实时监控 SheetX 运行状态，优化性能表现
+          - generic [ref=e170]:
+            - generic [ref=e171]: 实时监控中
+            - combobox [ref=e173]:
+              - option "1 秒" [selected]
+              - option "2 秒"
+              - option "5 秒"
+            - button "清空数据" [ref=e174] [cursor=pointer]
+            - button "导出报告" [ref=e178] [cursor=pointer]
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - text: "60"
+                - generic [ref=e191]: FPS
+              - generic [ref=e192]: 当前帧率
+            - generic [ref=e193]: "0.5"
+          - generic [ref=e197]:
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - text: "128"
+                - generic [ref=e206]: MB
+              - generic [ref=e207]: 内存占用
+            - generic [ref=e208]: "2.3"
+          - generic [ref=e212]:
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - text: "12.8"
+                - generic [ref=e220]: ms
+              - generic [ref=e221]: 渲染耗时
+            - generic [ref=e222]: "1.2"
+          - generic [ref=e226]:
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - text: 50,000
+                - generic [ref=e236]: 行
+              - generic [ref=e237]: 数据量
+            - generic [ref=e238]: "0"
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - text: 性能趋势
+                - generic [ref=e250]:
+                  - button "1分钟" [ref=e251] [cursor=pointer]
+                  - button "5分钟" [ref=e252] [cursor=pointer]
+                  - button "15分钟" [ref=e253] [cursor=pointer]
+                  - button "1小时" [ref=e254] [cursor=pointer]
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - generic [ref=e257]: FPS
+                  - generic [ref=e259]: 内存（MB）
+                  - generic [ref=e261]: 渲染耗时（ms）
+                - img [ref=e263]:
+                  - generic [ref=e267]: 14:20
+                  - generic [ref=e268]: 14:22
+                  - generic [ref=e269]: 14:24
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - text: 事件日志
+                - generic [ref=e276]: 8 条
+              - generic [ref=e277]:
+                - generic [ref=e278]:
+                  - button "全部" [ref=e279] [cursor=pointer]
+                  - button "渲染" [ref=e280] [cursor=pointer]
+                  - button "数据" [ref=e281] [cursor=pointer]
+                  - button "API" [ref=e282] [cursor=pointer]
+                  - button "错误" [ref=e283] [cursor=pointer]
+                  - button "警告" [ref=e284] [cursor=pointer]
+                - textbox "搜索日志..." [ref=e290]
+                - button "清空日志" [ref=e291] [cursor=pointer]
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]: 14:24:12
+                  - generic [ref=e299]: 渲染完成，耗时 12.8ms，行数 50,000
+                  - generic [ref=e300]: Renderer
+                - generic [ref=e301]:
+                  - generic [ref=e302]: 14:24:11
+                  - generic [ref=e304]: 数据加载完成，共 50,000 行，耗时 842ms
+                  - generic [ref=e305]: DataSource
+                - generic [ref=e306]:
+                  - generic [ref=e307]: 14:24:10
+                  - generic [ref=e309]: 用户执行了筛选操作：状态 = 已发货
+                  - generic [ref=e310]: Event
+                - generic [ref=e311]:
+                  - generic [ref=e312]: 14:24:08
+                  - generic [ref=e314]: 插件事件：onDataChange
+                  - generic [ref=e315]: Plugin
+                - generic [ref=e316]:
+                  - generic [ref=e317]: 14:24:05
+                  - generic [ref=e319]: 内存使用：128 MB（峰值：156 MB）
+                  - generic [ref=e320]: Monitor
+                - generic [ref=e321]:
+                  - generic [ref=e322]: 14:24:02
+                  - generic [ref=e324]: 开始渲染，数据量：50,000 行
+                  - generic [ref=e325]: Renderer
+                - generic [ref=e326]:
+                  - generic [ref=e327]: 14:23:58
+                  - generic [ref=e329]: API /api/data/update 超时（重试 1 次后成功）
+                  - generic [ref=e330]: API
+                - generic [ref=e331]:
+                  - generic [ref=e332]: 14:23:51
+                  - generic [ref=e334]: 虚拟滚动：可见区 32 行，缓冲区 8 行
+                  - generic [ref=e335]: Renderer
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic [ref=e338]: 组件状态
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e348]: 主表格实例
+                  - generic [ref=e349]: 运行中
+                  - generic [ref=e350]: 正常
+                - generic [ref=e351]:
+                  - generic [ref=e353]: 虚拟滚动
+                  - generic [ref=e354]: 已启用
+                  - generic [ref=e355]: 正常
+                - generic [ref=e356]:
+                  - generic [ref=e358]: Web Worker
+                  - generic [ref=e359]: 运行中
+                  - generic [ref=e360]: 正常
+                - generic [ref=e361]:
+                  - generic [ref=e363]: 数据缓存
+                  - generic [ref=e364]: 128 MB
+                  - button "清理" [ref=e365] [cursor=pointer]
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - text: API 调用统计
+                - generic [ref=e371]: 近 5 分钟 ▾
+              - table [ref=e372]:
+                - rowgroup [ref=e373]:
+                  - row [ref=e374]:
+                    - columnheader "接口" [ref=e375]
+                    - columnheader "调用次数" [ref=e376]
+                    - columnheader "平均耗时" [ref=e377]
+                    - columnheader "成功率" [ref=e378]
+                - rowgroup [ref=e379]:
+                  - row [ref=e380]:
+                    - cell "/api/data/query" [ref=e381]
+                    - cell "28" [ref=e382]
+                    - cell "142ms" [ref=e383]
+                    - cell "100%" [ref=e384]
+                  - row [ref=e385]:
+                    - cell "/api/data/update" [ref=e386]
+                    - cell "12" [ref=e387]
+                    - cell "87ms" [ref=e388]
+                    - cell "100%" [ref=e389]
+                  - row [ref=e390]:
+                    - cell "/api/plugin/load" [ref=e391]
+                    - cell "6" [ref=e392]
+                    - cell "64ms" [ref=e393]
+                    - cell "100%" [ref=e394]
+                  - row [ref=e395]:
+                    - cell "/api/config/theme" [ref=e396]
+                    - cell "4" [ref=e397]
+                    - cell "52ms" [ref=e398]
+                    - cell "100%" [ref=e399]
+            - generic [ref=e400]: 性能提示当前性能良好，建议继续保持。

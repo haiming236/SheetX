@@ -1,0 +1,20 @@
+{
+  "name": "@sheetx/benchmark",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SheetX 渲染性能基准应用：真实浏览器驱动 Grid，输出 FPS / P95 / 阻塞耗时",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@sheetx/grid": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

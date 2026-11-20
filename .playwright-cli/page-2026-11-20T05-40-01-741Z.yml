@@ -1,0 +1,260 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+      - link "40 渲染架构" [ref=e91]:
+        - /url: "#render-arch"
+        - generic [ref=e92]: "40"
+        - text: 渲染架构
+    - generic [ref=e93]:
+      - generic [ref=e94]: 技术选型与底层渲染架构
+      - generic [ref=e95]: ← →
+      - button "切换到深色主题" [ref=e96] [cursor=pointer]
+  - generic [ref=e102]:
+    - generic [ref=e103]:
+      - img "Sheet X" [ref=e106]
+      - generic [ref=e109]:
+        - button "技术选型" [ref=e110] [cursor=pointer]
+        - button "渲染架构" [ref=e111] [cursor=pointer]
+        - button "性能优化" [ref=e112] [cursor=pointer]
+        - button "跨平台支持" [ref=e113] [cursor=pointer]
+        - button "生态兼容" [ref=e114] [cursor=pointer]
+      - textbox "搜索技术文档..." [ref=e120]
+      - button "主题" [ref=e121] [cursor=pointer]
+      - generic [ref=e126]:
+        - generic [ref=e127]: 张
+        - text: 张
+    - generic [ref=e136]:
+      - heading "Canvas 与 DOM 混合渲染细节" [level=1] [ref=e137]
+      - paragraph [ref=e138]: Canvas 负责大规模数据渲染，DOM 处理交互编辑，协同工作，兼顾性能与体验。
+    - generic [ref=e139]:
+      - button "混合渲染架构" [ref=e140] [cursor=pointer]
+      - button "渲染流程" [ref=e147] [cursor=pointer]
+      - button "关键技术点" [ref=e152] [cursor=pointer]
+    - generic [ref=e157]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e165]:
+            - generic [ref=e166]: A1
+            - generic [ref=e170]: fx
+            - generic [ref=e171]: SheetX 表格组件
+            - button "左对齐" [ref=e172] [cursor=pointer]
+            - button "居中" [ref=e176] [cursor=pointer]
+            - button "右对齐" [ref=e180] [cursor=pointer]
+            - button "网格" [ref=e184] [cursor=pointer]
+            - button "全屏" [ref=e191] [cursor=pointer]
+          - button "产品方案" [ref=e197] [cursor=pointer]
+        - generic [ref=e201]:
+          - generic [ref=e202]: Canvas 区域
+          - generic [ref=e203]: 网格 / 数据渲染
+        - generic [ref=e204]:
+          - generic [ref=e205]: DOM 区域
+          - generic [ref=e206]: 编辑器 / 菜单 / 浮层
+      - complementary [ref=e207]:
+        - generic [ref=e208]: 协同机制
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]: "1"
+            - generic [ref=e223]:
+              - generic [ref=e224]: Canvas 绘制基础内容
+              - generic [ref=e225]: 渲染网格、单元格、数据和网格线
+          - generic [ref=e226]:
+            - generic [ref=e227]: "2"
+            - generic [ref=e232]:
+              - generic [ref=e233]: DOM 处理交互元素
+              - generic [ref=e234]: 输入框、下拉框、菜单、浮层等
+          - generic [ref=e235]:
+            - generic [ref=e236]: "3"
+            - generic [ref=e242]:
+              - generic [ref=e243]: 坐标同步与映射
+              - generic [ref=e244]: Canvas 与 DOM 位置对齐
+          - generic [ref=e245]:
+            - generic [ref=e246]: "4"
+            - generic [ref=e252]:
+              - generic [ref=e253]: 事件协作处理
+              - generic [ref=e254]: 统一事件分发与状态管理
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - heading "渲染策略" [level=4] [ref=e257]
+        - list [ref=e262]:
+          - listitem [ref=e263]: 可视区域渲染：只绘制可见区域
+          - listitem [ref=e268]: Canvas 批量绘制：提升渲染性能
+      - generic [ref=e273]:
+        - heading "性能优势" [level=4] [ref=e274]
+        - list [ref=e278]:
+          - listitem [ref=e279]: 百万级数据流畅展示
+          - listitem [ref=e284]: 复杂表格依然高性能
+          - listitem [ref=e289]: 内存占用更低
+        - generic [ref=e294]:
+          - generic [ref=e295]: "60"
+          - generic [ref=e296]: FPS · 流畅运行
+      - generic [ref=e297]:
+        - heading "典型应用场景" [level=4] [ref=e298]
+        - list [ref=e302]:
+          - listitem [ref=e303]: 大数据表格展示
+          - listitem [ref=e308]: 财务报表分析
+          - listitem [ref=e313]: 复杂业务系统
+          - listitem [ref=e318]: 专业数据编辑
+      - generic [ref=e328]:
+        - heading "技术亮点" [level=4] [ref=e329]
+        - list [ref=e334]:
+          - listitem [ref=e335]: Canvas + DOM 混合架构
+          - listitem [ref=e340]: 智能渲染与虚拟化
+          - listitem [ref=e345]: 精准的交互体验
+          - listitem [ref=e350]: 可扩展的插件机制

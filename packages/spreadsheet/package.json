@@ -1,0 +1,45 @@
+{
+  "name": "@sheetx/spreadsheet",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "电子表格模式：工作簿、单元格、公式、多工作表、样式",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  },
+  "dependencies": {
+    "@sheetx/core": "workspace:*",
+    "@sheetx/data": "workspace:*",
+    "@sheetx/editors": "workspace:*",
+    "@sheetx/formula": "workspace:*",
+    "@sheetx/grid": "workspace:*",
+    "@sheetx/interaction": "workspace:*",
+    "@sheetx/renderer": "workspace:*",
+    "@sheetx/themes": "workspace:*",
+    "@sheetx/ui": "workspace:*"
+  },
+  "publishConfig": {
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  }
+}

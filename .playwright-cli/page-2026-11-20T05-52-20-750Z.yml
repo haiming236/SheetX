@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+      - link "40 渲染架构" [ref=e91]:
+        - /url: "#render-arch"
+        - generic [ref=e92]: "40"
+        - text: 渲染架构
+      - link "41 虚拟滚动" [ref=e93]:
+        - /url: "#virtual-scroll"
+        - generic [ref=e94]: "41"
+        - text: 虚拟滚动
+      - link "44 AI 助手" [ref=e95]:
+        - /url: "#ai-assistant"
+        - generic [ref=e96]: "44"
+        - text: AI 助手
+    - generic [ref=e97]:
+      - generic [ref=e98]: AI 助手与智能数据分析
+      - generic [ref=e99]: ← →
+      - button "切换到深色主题" [ref=e100] [cursor=pointer]
+  - generic [ref=e106]:
+    - generic [ref=e107]:
+      - img "Sheet X" [ref=e110]
+      - generic [ref=e113]: 工作台 电子表格
+      - textbox "搜索功能或示例..." [ref=e128]
+      - button "主题" [ref=e129] [cursor=pointer]
+      - button "通知" [ref=e134] [cursor=pointer]
+      - generic [ref=e139]: 李
+    - generic [ref=e140]:
+      - complementary [ref=e141]:
+        - button "首页" [ref=e142] [cursor=pointer]
+        - button "Grid 表格" [ref=e149] [cursor=pointer]
+        - button "Spreadsheet 电子表格" [ref=e154] [cursor=pointer]
+        - button "AI 助手" [ref=e161] [cursor=pointer]
+        - button "示例与教程" [ref=e167] [cursor=pointer]
+        - button "文档中心" [ref=e172] [cursor=pointer]
+        - button "关于我们" [ref=e178] [cursor=pointer]
+        - generic [ref=e184]:
+          - generic [ref=e185]: SheetX
+          - generic [ref=e186]: 专业的表格与电子表格解决方案
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - button "销售数据分析" [ref=e195] [cursor=pointer]
+          - button "新建" [ref=e206] [cursor=pointer]
+        - generic [ref=e210]:
+          - button "撤销" [ref=e211] [cursor=pointer]
+          - button "重做" [ref=e216] [cursor=pointer]
+          - combobox [ref=e222]:
+            - option "思源黑体" [selected]
+            - option "微软雅黑"
+          - combobox [ref=e223]:
+            - option "12" [selected]
+            - option "14"
+          - button "加粗" [ref=e224] [cursor=pointer]
+          - button "斜体" [ref=e229] [cursor=pointer]
+          - button "下划线" [ref=e233] [cursor=pointer]
+          - button "字体颜色" [ref=e237] [cursor=pointer]
+          - button "填充" [ref=e242] [cursor=pointer]
+          - button "左对齐" [ref=e248] [cursor=pointer]
+          - button "居中" [ref=e252] [cursor=pointer]
+          - button "右对齐" [ref=e256] [cursor=pointer]
+          - button "边框" [ref=e260] [cursor=pointer]
+          - button "筛选" [ref=e268] [cursor=pointer]
+          - button "排序" [ref=e272] [cursor=pointer]
+          - button "求和" [ref=e276] [cursor=pointer]
+          - button "插入图表" [ref=e280] [cursor=pointer]
+          - button "更多" [ref=e284] [cursor=pointer]
+        - generic [ref=e290]:
+          - table [ref=e291]:
+            - rowgroup [ref=e292]:
+              - row [ref=e293]:
+                - columnheader [ref=e294]
+                - columnheader "A" [ref=e295]
+                - columnheader "B" [ref=e296]
+                - columnheader "C" [ref=e297]
+                - columnheader "D" [ref=e298]
+                - columnheader "E" [ref=e299]
+            - rowgroup [ref=e300]:
+              - row [ref=e301]:
+                - cell "1" [ref=e302]
+                - cell "销售数据分析报告 生成时间：2025-11-20" [ref=e303]:
+                  - text: 销售数据分析报告
+                  - generic [ref=e308]: 生成时间：2025-11-20
+              - row [ref=e309]:
+                - cell "2" [ref=e310]
+                - cell "产品名称" [ref=e311]
+                - cell "销售数量" [ref=e312]
+                - cell "销售金额" [ref=e313]
+                - cell "同比增长" [ref=e314]
+                - cell "占比" [ref=e315]
+              - row [ref=e316]:
+                - cell "3" [ref=e317]
+                - cell "MacBook Pro" [ref=e318]
+                - cell "1,250" [ref=e319]
+                - cell "¥1,987,500" [ref=e320]
+                - cell "▲ 12.5%" [ref=e321]
+                - cell "28.4%" [ref=e322]
+              - row [ref=e325]:
+                - cell "4" [ref=e326]
+                - cell "iPhone 17" [ref=e327]
+                - cell "980" [ref=e328]
+                - cell "¥1,568,000" [ref=e329]
+                - cell "▲ 8.7%" [ref=e330]
+                - cell "22.4%" [ref=e331]
+              - row [ref=e334]:
+                - cell "5" [ref=e335]
+                - cell "iPad Pro" [ref=e336]
+                - cell "720" [ref=e337]
+                - cell "¥1,152,000" [ref=e338]
+                - cell "▲ 10.2%" [ref=e339]
+                - cell "16.5%" [ref=e340]
+              - row [ref=e343]:
+                - cell "6" [ref=e344]
+                - cell "AirPods Pro" [ref=e345]
+                - cell "680" [ref=e346]
+                - cell "¥748,000" [ref=e347]
+                - cell "▲ 6.8%" [ref=e348]
+                - cell "10.7%" [ref=e349]
+              - row [ref=e352]:
+                - cell "7" [ref=e353]
+                - cell "Apple Watch" [ref=e354]
+                - cell "520" [ref=e355]
+                - cell "¥624,000" [ref=e356]
+                - cell "▲ 5.1%" [ref=e357]
+                - cell "8.9%" [ref=e358]
+              - row [ref=e361]:
+                - cell "8" [ref=e362]
+                - cell "AI 可在此区域生成更多数据（需预览确认）" [ref=e363]
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - heading "销售趋势分析" [level=4] [ref=e370]
+              - generic [ref=e375]:
+                - generic [ref=e376]: 销售额
+                - generic [ref=e378]: 销售数量
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - generic [ref=e382]: 150万
+                  - generic [ref=e383]: 100万
+                  - generic [ref=e384]: 50万
+                  - generic [ref=e385]: 0万
+                - generic [ref=e386]:
+                  - img "销售趋势图" [ref=e391]
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: 7月
+                    - generic [ref=e396]: 8月
+                    - generic [ref=e397]: 9月
+                    - generic [ref=e398]: 10月
+                    - generic [ref=e399]: 11月
+            - generic [ref=e400]:
+              - heading "产品销售占比" [level=4] [ref=e401]
+              - generic [ref=e406]:
+                - generic [ref=e407]: 100%
+                - generic [ref=e409]:
+                  - generic [ref=e410]:
+                    - text: MacBook Pro
+                    - generic [ref=e412]: 28.4%
+                  - generic [ref=e413]:
+                    - text: iPhone 17
+                    - generic [ref=e415]: 22.4%
+                  - generic [ref=e416]:
+                    - text: iPad Pro
+                    - generic [ref=e418]: 16.5%
+                  - generic [ref=e419]:
+                    - text: AirPods Pro
+                    - generic [ref=e421]: 10.7%
+                  - generic [ref=e422]:
+                    - text: Apple Watch
+                    - generic [ref=e424]: 8.9%
+                  - generic [ref=e425]:
+                    - text: 其他
+                    - generic [ref=e427]: 13.1%
+      - complementary [ref=e428]:
+        - generic [ref=e429]:
+          - text: AI 助手
+          - generic [ref=e434]: 在线
+          - button "最小化" [ref=e436] [cursor=pointer]
+        - generic [ref=e440]:
+          - generic [ref=e441]: 你好！我是 SheetX AI 助手有什么可以帮助你的吗？
+          - generic [ref=e448]:
+            - button "生成销售报表" [ref=e449] [cursor=pointer]
+            - button "分析数据趋势" [ref=e453] [cursor=pointer]
+            - button "创建图表" [ref=e458] [cursor=pointer]
+            - button "数据清洗" [ref=e463] [cursor=pointer]
+            - button "智能问答" [ref=e470] [cursor=pointer]
+            - button "公式推荐" [ref=e475] [cursor=pointer]
+          - generic [ref=e479]:
+            - generic [ref=e480]: 已为你生成数据分析摘要
+            - generic [ref=e485]: 本月销售额达到 ¥6,079,500，同比增长 8.6%。MacBook Pro 销售表现最佳，占比 28.4%，建议加大该产品的市场推广力度。
+            - generic [ref=e486] [cursor=pointer]: 查看详情
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - textbox "请输入你的问题，例如：帮我分析一下本季度的销售趋势..." [ref=e492]
+            - button "发送" [ref=e493] [cursor=pointer]
+          - generic [ref=e498]:
+            - button "AI 生成数据" [ref=e499] [cursor=pointer]
+            - button "智能分析" [ref=e504] [cursor=pointer]
+            - button "生成图表" [ref=e509] [cursor=pointer]
+          - generic [ref=e513] [cursor=pointer]: Provider：本地模型 · 可插拔
+    - generic [ref=e520]:
+      - generic [ref=e521]: 就绪
+      - generic [ref=e523]: SheetX AI · 本地模型
+      - generic [ref=e524]:
+        - generic [ref=e525]: 平均值：¥1,215,900
+        - generic [ref=e526]: 计数：5
+        - generic [ref=e527]: 求和：¥6,079,500
+        - generic [ref=e528]: 100% +

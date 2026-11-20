@@ -1,0 +1,8 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "SheetX 浏览器交互验收" [level=1] [ref=e3]
+    - generic [ref=e4]: 真实 DOM CompositionEvent / ClipboardEvent / KeyboardEvent
+    - button "运行全部用例" [ref=e5] [cursor=pointer]
+  - main [ref=e6]:
+    - textbox "IME 测试输入（仅用于接收组合事件）" [ref=e8]
+    - generic [ref=e10]: 点击「运行全部用例」，或控制台执行 await window.__e2e.runAll()。

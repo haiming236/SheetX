@@ -1,0 +1,7 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "SheetX 渲染性能基准" [level=1] [ref=e3]
+    - generic [ref=e4]: 真实浏览器 · getRenderStats() + rAF 采样 · 输出 FPS / P95 / 阻塞耗时
+    - button "运行全部场景" [ref=e5] [cursor=pointer]
+  - main [ref=e6]:
+    - generic [ref=e8]: 点击「运行全部场景」开始。也可在控制台调用 window.__bench.runAll()。

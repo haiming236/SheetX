@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "SheetX · Integration Lab" [level=1] [ref=e3]
+    - generic [ref=e4]: 宿主集成测试 · 无 Playground 导航 · 表格由 SheetX 提供
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - heading "A. 原生 HTML 嵌入 · Grid（compact 预设）" [level=2] [ref=e7]
+      - paragraph [ref=e8]: 宿主页面只有自己的标题，SheetX 只负责表格区域。
+      - generic [ref=e9]:
+        - generic [ref=e10]: 商品管理（宿主 ERP 页面）
+        - grid [ref=e13]
+    - generic [ref=e16]:
+      - heading "B. 原生 HTML 嵌入 · Spreadsheet（spreadsheet 预设）" [level=2] [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]: 财务报表（宿主 ERP 页面）
+        - grid [ref=e22]

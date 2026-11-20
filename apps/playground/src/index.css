@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ============================================================================
+ * 全局主题变量（浅色）
+ * 放在 :root 而非各页面 :host —— CSS 变量会继承进 shadow DOM，
+ * 切换 html[data-theme] 即可让全部 17 个页面同时换肤。
+ * ========================================================================== */
+:root {
+  --sx-bg-app: #f5f6f8;
+  --sx-bg-surface: #ffffff;
+  --sx-bg-subtle: #f3f4f8;
+  --sx-bg-hover: #eef0f5;
+  --sx-bg-active: #e8f0fe;
+
+  --sx-border: #e3e5ea;
+  --sx-border-strong: #d5d8e0;
+  --sx-border-input: #dcdfe6;
+
+  /* 浅色主题文字：纯黑 #000000（用户要求默认黑色，保证小字清晰） */
+  --sx-text-primary: #000000;
+  --sx-text-secondary: #000000;
+  --sx-text-hint: #000000;
+
+  --sx-brand: #2563eb;
+  --sx-brand-hover: #1d4ed8;
+  --sx-brand-soft: #e8f0fe;
+  /* Logo 底衬：官方文字标建议浅色背景，深色主题下垫浅色以保证深海蓝 Sheet 可读 */
+  --sx-logo-bg: transparent;
+
+  --sx-success: #22a06b;
+  --sx-success-soft: #d6f2e3;
+  --sx-danger: #d64545;
+
+  --sx-grid-line: #e6e8ed;
+  --sx-grid-header-bg: #eaf1fd;
+  --sx-grid-header-text: #000000;
+  --sx-cell-selected: #2563eb;
+  --sx-row-selected-bg: #eaf2ff;
+  --sx-sel-range: #d8e8ff;
+  --sx-progress-track: #e5e9f0;
+
+  color-scheme: light;
+}
+
+/* 深色主题：同名变量整体替换，页面无需改动 */
+html[data-theme='dark'] {
+  --sx-bg-app: #16171d;
+  --sx-bg-surface: #1e2029;
+  --sx-bg-subtle: #262833;
+  --sx-bg-hover: #2e313d;
+  --sx-bg-active: #2b3a5c;
+
+  --sx-border: #31343f;
+  --sx-border-strong: #3d414e;
+  --sx-border-input: #3a3e4a;
+
+  --sx-text-primary: #e8eaed;
+  --sx-text-secondary: #a8aebb;
+  --sx-text-hint: #6f7683;
+
+  --sx-brand: #5b8cff;
+  --sx-brand-hover: #7aa2ff;
+  --sx-brand-soft: #26365c;
+  --sx-logo-bg: rgba(255, 255, 255, 0.92);
+
+  --sx-success: #3ec98a;
+  --sx-success-soft: #1d3b30;
+  --sx-danger: #f06a6a;
+
+  --sx-grid-line: #2c2f3a;
+  --sx-grid-header-bg: #262f42;
+  --sx-grid-header-text: #c8cdd7;
+  --sx-cell-selected: #5b8cff;
+  --sx-row-selected-bg: #24304c;
+  --sx-sel-range: #2a3d5e;
+  --sx-progress-track: #313643;
+
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--sx-bg-app);
+  color: var(--sx-text-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 纵向两行：第 1 行常驻全局导航（42px），第 2 行页面内容吃掉剩余高度 */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 页面根元素撑满内容区（配合各包 :host 由 100vh 改为 100%） */
+#app > * {
+  height: 100%;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@sheetx/grid",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "业务数据网格模式：行列模型、虚拟化、选择、编辑",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  },
+  "dependencies": {
+    "@sheetx/core": "workspace:*",
+    "@sheetx/data": "workspace:*",
+    "@sheetx/data-adapter": "workspace:*",
+    "@sheetx/editors": "workspace:*",
+    "@sheetx/formula": "workspace:*",
+    "@sheetx/interaction": "workspace:*",
+    "@sheetx/renderer": "workspace:*",
+    "@sheetx/themes": "workspace:*",
+    "@sheetx/validation": "workspace:*",
+    "@sheetx/ui": "workspace:*"
+  },
+  "publishConfig": {
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "视图" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+    - tablist "视图切换" [ref=e10]:
+      - link "首页" [ref=e11]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e13]:
+        - /url: "#spreadsheet"
+        - generic [ref=e14]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e15]:
+        - /url: "#grid"
+        - generic [ref=e16]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e17]:
+        - /url: "#sheet-full"
+        - generic [ref=e18]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e19]:
+        - /url: "#editors"
+        - generic [ref=e20]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e21]:
+        - /url: "#virtual"
+        - generic [ref=e22]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e24]:
+        - /url: "#formula"
+        - generic [ref=e25]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e26]:
+        - /url: "#data"
+        - generic [ref=e27]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e28]:
+        - /url: "#context"
+        - generic [ref=e29]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e30]:
+        - /url: "#filter"
+        - generic [ref=e31]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e32]:
+        - /url: "#settings"
+        - generic [ref=e33]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e35]:
+        - /url: "#workbook"
+        - generic [ref=e36]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e37]:
+        - /url: "#charts"
+        - generic [ref=e38]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e39]:
+        - /url: "#pivot"
+        - generic [ref=e40]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e41]:
+        - /url: "#review"
+        - generic [ref=e42]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e43]:
+        - /url: "#validate"
+        - generic [ref=e44]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e46]:
+        - /url: "#engine"
+        - generic [ref=e47]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e48]:
+        - /url: "#print"
+        - generic [ref=e49]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e50]:
+        - /url: "#format"
+        - generic [ref=e51]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e52]:
+        - /url: "#formula-lib"
+        - generic [ref=e53]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e54]:
+        - /url: "#history"
+        - generic [ref=e55]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e56]:
+        - /url: "#import"
+        - generic [ref=e57]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e58]:
+        - /url: "#adv-filter"
+        - generic [ref=e59]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e60]:
+        - /url: "#multi-view"
+        - generic [ref=e61]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e62]:
+        - /url: "#plugins"
+        - generic [ref=e63]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e64]:
+        - /url: "#properties"
+        - generic [ref=e65]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e66]:
+        - /url: "#host"
+        - generic [ref=e67]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e68]:
+        - /url: "#datasource"
+        - generic [ref=e69]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e70]:
+        - /url: "#edit"
+        - generic [ref=e71]: "28"
+        - text: 事务提交
+    - generic [ref=e72]:
+      - generic [ref=e73]: 数据编辑与事务提交
+      - generic [ref=e74]: ← →
+      - button "切换到深色主题" [ref=e75] [cursor=pointer]
+  - generic [ref=e81]:
+    - generic [ref=e82]:
+      - generic [ref=e83]: SheetX
+      - navigation [ref=e92]:
+        - button "文件" [ref=e93] [cursor=pointer]
+        - button "开始" [ref=e94] [cursor=pointer]
+        - button "插入" [ref=e95] [cursor=pointer]
+        - button "数据" [ref=e96] [cursor=pointer]
+        - button "公式" [ref=e97] [cursor=pointer]
+        - button "视图" [ref=e98] [cursor=pointer]
+        - button "设置" [ref=e99] [cursor=pointer]
+      - textbox "搜索功能..." [ref=e105]
+      - button "帮助" [ref=e106] [cursor=pointer]
+      - generic "宿主用户" [ref=e112]: 张
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - button "撤销" [ref=e115] [cursor=pointer]
+        - button "重做" [ref=e120] [cursor=pointer]
+        - button "打印" [ref=e125] [cursor=pointer]
+      - generic [ref=e131]:
+        - combobox [ref=e132]:
+          - option "常规" [selected]
+          - option "货币"
+          - option "数值"
+        - combobox [ref=e133]:
+          - option "12" [selected]
+          - option "11"
+          - option "14"
+        - button "粗体" [ref=e134] [cursor=pointer]
+        - button "斜体" [ref=e139] [cursor=pointer]
+        - button "下划线" [ref=e143] [cursor=pointer]
+        - button "字体颜色" [ref=e147] [cursor=pointer]
+        - button "填充颜色" [ref=e152] [cursor=pointer]
+      - generic [ref=e157]:
+        - button "对齐" [ref=e158] [cursor=pointer]
+        - button "对齐" [ref=e162] [cursor=pointer]
+        - button "对齐" [ref=e166] [cursor=pointer]
+        - button "对齐" [ref=e170] [cursor=pointer]
+        - combobox [ref=e174]:
+          - option "合并居中" [selected]
+          - option "合并单元格"
+          - option "取消合并"
+        - button "自动换行" [ref=e175] [cursor=pointer]
+        - button "百分比" [ref=e176] [cursor=pointer]
+        - button "减少小数位" [ref=e182] [cursor=pointer]
+        - button "链接" [ref=e187] [cursor=pointer]
+        - button "云同步" [ref=e192] [cursor=pointer]
+        - button "更多" [ref=e197] [cursor=pointer]
+    - generic [ref=e198]:
+      - generic [ref=e199]: B3
+      - generic [ref=e203]: fx
+      - textbox [ref=e204]
+    - generic [ref=e205]:
+      - table [ref=e207]:
+        - rowgroup [ref=e208]:
+          - row [ref=e209]:
+            - columnheader [ref=e210]:
+              - checkbox [ref=e211] [cursor=pointer]
+            - columnheader "订单编号" [ref=e212]
+            - columnheader "订单日期" [ref=e218]
+            - columnheader "客户名称" [ref=e223]
+            - columnheader "订单金额" [ref=e228]
+            - columnheader "订单状态" [ref=e232]
+        - rowgroup [ref=e237]:
+          - row [ref=e238]:
+            - cell [ref=e239]
+            - cell "B" [ref=e240]
+            - cell "C" [ref=e241]
+            - cell "D" [ref=e242]
+            - cell "E" [ref=e243]
+            - cell "F" [ref=e244]
+          - row [ref=e245]:
+            - cell [ref=e246]:
+              - checkbox [ref=e247] [cursor=pointer]
+            - cell "SQ202501001" [ref=e248]
+            - cell "2025-01-15" [ref=e249]
+            - cell "华东贸易有限公司" [ref=e250]
+            - cell "¥ 12,800.00" [ref=e251]
+            - cell "已发货" [ref=e252]
+          - row [ref=e254]:
+            - cell [ref=e255]:
+              - checkbox [ref=e256] [cursor=pointer]
+            - cell "SQ202501002" [ref=e257]
+            - cell "2025-01-15" [ref=e258]
+            - cell "北京科技有限公司" [ref=e259]
+            - cell "¥ 8,560.00" [ref=e260]
+            - cell "已发货" [ref=e261]
+          - row [ref=e263]:
+            - cell [ref=e264]:
+              - checkbox [ref=e265] [cursor=pointer]
+            - cell "SQ202501003" [ref=e266]
+            - cell "2025-01-16" [ref=e267]
+            - cell "深圳创新科技" [ref=e268]
+            - cell "¥ 15,200.00" [ref=e269]
+            - cell "待发货" [ref=e270]
+          - row [ref=e272]:
+            - cell [ref=e273]:
+              - checkbox [ref=e274] [cursor=pointer]
+            - cell "SQ202501004" [ref=e275]
+            - cell "2025-01-16" [ref=e276]
+            - cell "上海商贸公司" [ref=e277]
+            - cell "¥ 9,800.00" [ref=e278]
+            - cell "已发货" [ref=e279]
+          - row [ref=e281]:
+            - cell [ref=e282]:
+              - checkbox [ref=e283] [cursor=pointer]
+            - cell "SQ202501005" [ref=e284]
+            - cell "2025-01-17" [ref=e285]
+            - cell "广州智联科技" [ref=e286]
+            - cell "¥ 11,600.00" [ref=e287]
+            - cell "已发货" [ref=e288]
+          - row [ref=e290]:
+            - cell [ref=e291]:
+              - checkbox [ref=e292] [cursor=pointer]
+            - cell "SQ202501006" [ref=e293]
+            - cell "2025-01-18" [ref=e294]
+            - cell "杭州数字科技" [ref=e295]
+            - cell "¥ 18,400.00" [ref=e296]
+            - cell "待发货" [ref=e297]
+          - row [ref=e299]:
+            - cell [ref=e300]:
+              - checkbox [ref=e301] [cursor=pointer]
+            - cell "SQ202501007" [ref=e302]
+            - cell "2025-01-19" [ref=e303]
+            - cell "成都 Tech 公司" [ref=e304]
+            - cell "¥ 7,600.00" [ref=e305]
+            - cell "已发货" [ref=e306]
+          - row [ref=e308]:
+            - cell [ref=e309]:
+              - checkbox [ref=e310] [cursor=pointer]
+            - cell "SQ202501008" [ref=e311]
+            - cell "2025-01-20" [ref=e312]
+            - cell "重庆智能科技" [ref=e313]
+            - cell "¥ 13,200.00" [ref=e314]
+            - cell "待发货" [ref=e315]
+          - row [ref=e317]:
+            - cell [ref=e318]:
+              - checkbox [ref=e319] [cursor=pointer]
+            - cell "SQ202501009" [ref=e320]
+            - cell "2025-01-21" [ref=e321]
+            - cell "南京软件园" [ref=e322]
+            - cell "¥ 6,300.00" [ref=e323]
+            - cell "已取消" [ref=e324]
+          - row [ref=e326]:
+            - cell [ref=e327]:
+              - checkbox [ref=e328] [cursor=pointer]
+            - cell "SQ202501010" [ref=e329]
+            - cell "2025-01-22" [ref=e330]
+            - cell "武汉科技有限公司" [ref=e331]
+            - cell "¥ 9,500.00" [ref=e332]
+            - cell "已发货" [ref=e333]
+      - complementary [ref=e335]:
+        - generic [ref=e336]:
+          - text: 批量编辑
+          - button "收起" [ref=e340] [cursor=pointer]
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - text: 编辑范围
+              - generic [ref=e347] [cursor=pointer]: 清除
+            - generic [ref=e348]:
+              - text: 已选择
+              - generic [ref=e349]: "0"
+              - text: 行 × 1 列
+          - generic [ref=e350]:
+            - generic [ref=e351]: 编辑内容
+            - combobox [ref=e352]:
+              - option "设置为固定值" [selected]
+              - option "递增数值"
+              - option "清空字段"
+              - option "追加前缀"
+            - combobox [ref=e353]:
+              - option "订单状态" [selected]
+              - option "订单金额"
+              - option "订单日期"
+              - option "客户名称"
+            - combobox [ref=e355]:
+              - option "已发货" [selected]
+              - option "待发货"
+              - option "已完成"
+              - option "已取消"
+          - generic [ref=e360]: 同时更新订单状态和发货日期
+          - generic [ref=e370]:
+            - text: 将对
+            - generic [ref=e371]: "0"
+            - text: 条记录进行批量更新（订单状态：已发货）。修改先进入暂存区，确认后才提交到宿主系统。
+        - button "应用修改" [ref=e373] [cursor=pointer]
+    - generic [ref=e377]:
+      - generic [ref=e378]:
+        - button "操作日志" [ref=e379] [cursor=pointer]
+        - button "提交记录" [ref=e380] [cursor=pointer]
+        - button "数据变更" [ref=e381] [cursor=pointer]
+        - button "收起" [ref=e382] [cursor=pointer]
+      - table [ref=e386]:
+        - rowgroup [ref=e387]:
+          - row [ref=e388]:
+            - columnheader "时间" [ref=e389]
+            - columnheader "操作人" [ref=e390]
+            - columnheader "操作内容" [ref=e391]
+            - columnheader "状态" [ref=e392]
+            - columnheader "备注" [ref=e393]
+        - rowgroup [ref=e394]:
+          - row [ref=e395]:
+            - cell "10:24:33" [ref=e396]
+            - cell "张三" [ref=e397]
+            - 'cell "修改了第 3 行的订单金额: 8,260.00 → 8,560.00" [ref=e398]'
+            - cell "已提交" [ref=e399]
+            - cell "提交成功" [ref=e405]
+          - row [ref=e406]:
+            - cell "10:20:12" [ref=e407]
+            - cell "张三" [ref=e408]
+            - 'cell "批量更新订单状态: 待发货 → 已发货（共 3 条）" [ref=e409]'
+            - cell "已提交" [ref=e410]
+            - cell "提交成功" [ref=e416]
+          - row [ref=e417]:
+            - cell "10:15:08" [ref=e418]
+            - cell "张三" [ref=e419]
+            - cell "暂存第 5 行客户名称修改" [ref=e420]
+            - cell "暂存" [ref=e421]
+            - cell "等待提交" [ref=e427]
+      - generic [ref=e428]:
+        - button "‹" [ref=e429] [cursor=pointer]
+        - button "1" [ref=e430] [cursor=pointer]
+        - button "2" [ref=e431] [cursor=pointer]
+        - button "3" [ref=e432] [cursor=pointer]
+        - generic [ref=e433]: …
+        - button "10" [ref=e434] [cursor=pointer]
+        - button "›" [ref=e435] [cursor=pointer]
+        - generic [ref=e436]: 共 28 条

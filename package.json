@@ -1,0 +1,37 @@
+{
+  "name": "sheetx",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "description": "SheetX - 纯前端嵌入式表格引擎（Grid + Spreadsheet 双模式）",
+  "scripts": {
+    "dev": "pnpm --filter @sheetx/playground dev",
+    "build": "node scripts/build-lib.mjs",
+    "build:playground": "pnpm --filter @sheetx/playground build",
+    "build:benchmark": "pnpm --filter @sheetx/benchmark build",
+    "build:e2e": "pnpm --filter @sheetx/e2e build",
+    "build:docs": "pnpm --filter @sheetx/docs build",
+    "dev:docs": "pnpm --filter @sheetx/docs dev",
+    "typecheck": "pnpm -r --filter './packages/**' run typecheck && pnpm --filter @sheetx/playground run typecheck && pnpm --filter @sheetx/benchmark run typecheck && pnpm --filter @sheetx/e2e run typecheck",
+    "test": "vitest run",
+    "test:e2e": "bash apps/e2e/scripts/run.sh",
+    "test:watch": "vitest",
+    "clean": "pnpm -r exec rm -rf dist .tsbuildinfo",
+    "build:cdn": "node scripts/build-lib.mjs @sheetx/web-component",
+    "build:all": "pnpm build && pnpm build:playground && pnpm build:docs",
+    "benchmark": "pnpm --filter @sheetx/benchmark dev",
+    "dev:integration": "pnpm --filter @sheetx/integration-lab dev"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6",
+    "vitepress": "^1.6.4",
+    "vitest": "^3.2.7"
+  },
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": ">=22"
+  }
+}

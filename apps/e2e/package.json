@@ -1,0 +1,23 @@
+{
+  "name": "@sheetx/e2e",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SheetX 浏览器级交互验收：真实 DOM 的 IME / Clipboard / 键盘事件",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@sheetx/grid": "workspace:*",
+    "@sheetx/interaction": "workspace:*",
+    "@sheetx/renderer": "workspace:*",
+    "@sheetx/worker": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

@@ -1,0 +1,117 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4]:
+    - /url: "#VPContent"
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - link [ref=e6]:
+            - /url: /
+          - generic [ref=e7]:
+            - button "搜索文档" [ref=e10] [cursor=pointer]:
+              - generic [ref=e14]:
+                - generic [ref=e15]: ⌘
+                - generic [ref=e16]: K
+            - navigation "Main Navigation" [ref=e17]:
+              - link "指南" [ref=e19]:
+                - /url: /guide/
+              - link "API 参考" [ref=e21]:
+                - /url: /api/
+              - link "进阶" [ref=e23]:
+                - /url: /advanced/
+              - link "工程" [ref=e25]:
+                - /url: /engineering/
+              - button "资源" [ref=e28] [cursor=pointer]
+            - switch "Switch to dark theme" [ref=e33] [cursor=pointer]
+            - link "github" [ref=e39]:
+              - /url: https://github.com/sheetx/sheetx
+  - generic [ref=e42]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "SheetX" [level=1] [ref=e46]
+        - paragraph [ref=e48]: 专为企业业务系统打造的嵌入式高性能表格引擎
+        - generic [ref=e49]:
+          - link "快速开始" [ref=e51]:
+            - /url: /guide/getting-started
+          - link "查看 API" [ref=e53]:
+            - /url: /api/
+          - link "架构总览" [ref=e55]:
+            - /url: /guide/architecture
+      - img "SheetX Logo" [ref=e59]
+    - generic [ref=e62]:
+      - article [ref=e65]:
+        - generic [ref=e66]: 🧩
+        - heading "双模式，一套内核" [level=2] [ref=e67]
+        - paragraph [ref=e68]: 业务数据网格（Grid）与电子表格（Spreadsheet）共享选择、渲染、命令与编辑基础设施，却各自拥有贴合场景的数据模型。
+      - article [ref=e71]:
+        - generic [ref=e72]: ⚡
+        - heading "为大数据而生" [level=2] [ref=e73]
+        - paragraph [ref=e74]: 行高前缀和索引 + 虚拟滚动 + 脏矩形重绘 + 滚动位块搬移，10 万行滚动目标 60 FPS，1000 列横向虚拟滚动。
+      - article [ref=e77]:
+        - generic [ref=e78]: 🧮
+        - heading "独立公式引擎" [level=2] [ref=e79]
+        - paragraph [ref=e80]: 自研解析器、依赖图与增量调度，改 A1 只重算受影响节点；函数注册表支持内置与自定义函数，MIT 核心零第三方依赖。
+      - article [ref=e83]:
+        - generic [ref=e84]: 🇨🇳
+        - heading "中文与 Excel 互操作" [level=2] [ref=e85]
+        - paragraph [ref=e86]: 独立 IME 守卫正确处理 composition 全序列；TSV / HTML 剪贴板与 Excel、WPS 双向粘贴；XLSX 零依赖读写。
+      - article [ref=e89]:
+        - generic [ref=e90]: 🔌
+        - heading "插件与扩展生态" [level=2] [ref=e91]
+        - paragraph [ref=e92]: 8 类扩展点、插件目录与依赖拓扑、生命周期账本；自定义编辑器、渲染器、数据适配器均可注入，商业扩展与 MIT 核心边界清晰。
+      - article [ref=e95]:
+        - generic [ref=e96]: 📦
+        - heading "跨框架、按需加载" [level=2] [ref=e97]
+        - paragraph [ref=e98]: 原生 Web Component + Vue / React 适配层；Script / npm / Custom Element 三种集成方式；只装 Grid 不会拉入公式与 XLSX 代码。
+    - generic [ref=e101]:
+      - heading [level=2] [ref=e102]:
+        - text: 为什么是 SheetX
+        - 'link "Permalink to \"为什么是 SheetX {#why}\"" [ref=e103]':
+          - /url: "#why"
+          - text: "#"
+      - paragraph [ref=e104]:
+        - text: SheetX 的定位不是"再做一个 Univer"，而是：
+        - strong [ref=e105]: 集成体验更简单、业务编辑体验更专业、中文支持更好、性能透明、授权更友好的 Web 表格引擎
+        - text: 。
+      - list [ref=e106]:
+        - listitem [ref=e107]:
+          - strong [ref=e108]: 纯前端
+          - text: ：不内置后端、数据库、账户权限或强制云服务。数据通过 Data Adapter 回调与宿主系统交互。
+        - listitem [ref=e109]:
+          - strong [ref=e110]: MIT 核心开源
+          - text: ：虚拟滚动、基础编辑、复制粘贴、撤销重做等基础能力全部在社区版且足够优秀；商业版卖的是高阶生产力与企业级能力。
+        - listitem [ref=e111]:
+          - strong [ref=e112]: 工程透明
+          - text: ：渲染 benchmark、浏览器 E2E 与单测全部落盘为真实报告，不靠"感觉流畅"。
+      - heading [level=2] [ref=e113]:
+        - text: 十秒上手
+        - 'link "Permalink to \"十秒上手 {#quick-look}\"" [ref=e114]':
+          - /url: "#quick-look"
+          - text: "#"
+      - generic [ref=e115]:
+        - button "Copy Code" [ref=e116] [cursor=pointer]
+        - generic [ref=e117]: ts
+        - code [ref=e119]:
+          - generic [ref=e120]: "import { createGrid } from '@sheetx/grid'"
+          - generic [ref=e121]: "const grid = createGrid({"
+          - generic [ref=e122]: "container: '#grid',"
+          - generic [ref=e123]: "columns: ["
+          - generic [ref=e124]: "{ key: 'name', title: '商品名称', width: 180 },"
+          - generic [ref=e125]: "{ key: 'qty', title: '数量', editor: 'number', editable: true },"
+          - generic [ref=e126]: "{ key: 'price', title: '单价', editor: 'currency' },"
+          - generic [ref=e127]: "],"
+          - generic [ref=e128]: "data: ["
+          - generic [ref=e129]: "{ name: '苹果', qty: 100, price: 5.5 },"
+          - generic [ref=e130]: "{ name: '香蕉', qty: 200, price: 3.2 },"
+          - generic [ref=e131]: "],"
+          - generic [ref=e132]: "})"
+          - generic [ref=e133]: grid.on('cell-change', (tx) => console.log(tx.changes))
+      - paragraph [ref=e134]:
+        - text: 继续阅读
+        - link "快速开始" [ref=e135]:
+          - /url: /guide/getting-started
+        - text: 了解完整集成步骤。
+  - contentinfo [ref=e136]:
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: MIT 核心开源 · 专为企业业务系统打造的嵌入式表格引擎
+      - paragraph [ref=e139]: Copyright © 2026 SheetX

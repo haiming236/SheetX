@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "视图" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+    - tablist "视图切换" [ref=e10]:
+      - link "首页" [ref=e11]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e13]:
+        - /url: "#spreadsheet"
+        - generic [ref=e14]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e15]:
+        - /url: "#grid"
+        - generic [ref=e16]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e17]:
+        - /url: "#sheet-full"
+        - generic [ref=e18]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e19]:
+        - /url: "#editors"
+        - generic [ref=e20]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e21]:
+        - /url: "#virtual"
+        - generic [ref=e22]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e24]:
+        - /url: "#formula"
+        - generic [ref=e25]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e26]:
+        - /url: "#data"
+        - generic [ref=e27]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e28]:
+        - /url: "#context"
+        - generic [ref=e29]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e30]:
+        - /url: "#filter"
+        - generic [ref=e31]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e32]:
+        - /url: "#settings"
+        - generic [ref=e33]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e35]:
+        - /url: "#workbook"
+        - generic [ref=e36]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e37]:
+        - /url: "#charts"
+        - generic [ref=e38]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e39]:
+        - /url: "#pivot"
+        - generic [ref=e40]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e41]:
+        - /url: "#review"
+        - generic [ref=e42]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e43]:
+        - /url: "#validate"
+        - generic [ref=e44]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e46]:
+        - /url: "#engine"
+        - generic [ref=e47]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e48]:
+        - /url: "#print"
+        - generic [ref=e49]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e50]:
+        - /url: "#format"
+        - generic [ref=e51]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e52]:
+        - /url: "#formula-lib"
+        - generic [ref=e53]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e54]:
+        - /url: "#history"
+        - generic [ref=e55]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e56]:
+        - /url: "#import"
+        - generic [ref=e57]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e58]:
+        - /url: "#adv-filter"
+        - generic [ref=e59]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e60]:
+        - /url: "#multi-view"
+        - generic [ref=e61]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e62]:
+        - /url: "#plugins"
+        - generic [ref=e63]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e64]:
+        - /url: "#properties"
+        - generic [ref=e65]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e66]:
+        - /url: "#host"
+        - generic [ref=e67]: "26"
+        - text: 宿主集成
+    - generic [ref=e68]:
+      - generic [ref=e69]: 宿主系统集成与 API 调试
+      - generic [ref=e70]: ← →
+      - button "切换到深色主题" [ref=e71] [cursor=pointer]
+  - generic [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]: SheetX
+      - navigation [ref=e88]:
+        - button "表格设计" [ref=e89] [cursor=pointer]
+        - button "数据处理" [ref=e94] [cursor=pointer]
+        - button "插件扩展" [ref=e100] [cursor=pointer]
+        - button "集成配置" [ref=e104] [cursor=pointer]
+        - button "关于" [ref=e109] [cursor=pointer]
+      - generic [ref=e115]:
+        - button "帮助" [ref=e116] [cursor=pointer]
+        - button "设置" [ref=e122] [cursor=pointer]
+        - generic "宿主传入的用户上下文" [ref=e127]:
+          - generic [ref=e128]: 张
+          - generic [ref=e129]: 张三
+    - generic [ref=e133]:
+      - complementary [ref=e134]:
+        - generic [ref=e135]: 集成方案
+        - button "宿主系统集成" [ref=e136] [cursor=pointer]
+        - button "数据接口适配" [ref=e141] [cursor=pointer]
+        - button "用户上下文" [ref=e147] [cursor=pointer]
+        - button "权限控制" [ref=e152] [cursor=pointer]
+        - button "主题与样式" [ref=e158] [cursor=pointer]
+        - button "国际化配置" [ref=e165] [cursor=pointer]
+        - button "自定义插件" [ref=e170] [cursor=pointer]
+        - button "API 调试中心" [ref=e174] [cursor=pointer]
+        - generic [ref=e179]:
+          - heading "集成指南" [level=4] [ref=e180]
+          - paragraph [ref=e186]: 快速了解如何将 SheetX 集成到您的系统中
+          - button "查看文档" [ref=e187] [cursor=pointer]
+        - generic [ref=e191]: ◎ SheetX v1.0.0
+      - main [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e199]:
+            - heading "宿主系统集成" [level=2] [ref=e200]
+            - paragraph [ref=e201]: 通过开放的集成接口，轻松将 SheetX 嵌入到您的业务系统中
+          - generic [ref=e202]: 集成状态：已就绪
+        - tablist [ref=e204]:
+          - tab "基本配置" [selected] [ref=e205] [cursor=pointer]
+          - tab "数据接口" [ref=e206] [cursor=pointer]
+          - tab "用户上下文" [ref=e207] [cursor=pointer]
+          - tab "权限配置" [ref=e208] [cursor=pointer]
+          - tab "主题定制" [ref=e209] [cursor=pointer]
+          - tab "高级选项" [ref=e210] [cursor=pointer]
+        - generic [ref=e211]: 集成模式
+        - generic [ref=e212]:
+          - generic [ref=e213] [cursor=pointer]:
+            - heading "纯前端嵌入" [level=4] [ref=e222]
+            - paragraph [ref=e223]: 无需额外部署，直接在宿主系统中使用
+          - generic [ref=e224] [cursor=pointer]:
+            - heading "前端 + 后端增强" [level=4] [ref=e231]
+            - paragraph [ref=e232]: 配合宿主系统提供 API，支持更多企业级功能
+          - generic [ref=e233] [cursor=pointer]:
+            - heading "协同与扩展" [level=4] [ref=e241]
+            - paragraph [ref=e242]: 支持多人协作与高级功能（可选）
+        - generic [ref=e243]: 基本参数
+        - generic [ref=e244]:
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: 容器选择器
+              - textbox [ref=e248]: "#sheet-container"
+            - generic [ref=e249]: 指定表格容器元素的 CSS 选择器
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]: 默认主题
+              - combobox [ref=e253]:
+                - option "简约风格" [selected]
+                - option "现代商务"
+                - option "清新自然"
+                - option "科技蓝"
+            - generic [ref=e254]: 切换后全局主色同步生效
+          - generic [ref=e256]:
+            - generic [ref=e257]: 默认字体
+            - combobox [ref=e258]:
+              - option "Microsoft YaHei" [selected]
+              - option "PingFang SC"
+              - option "SimSun"
+              - option "Consolas"
+              - option "Arial"
+              - option "自定义字体"
+        - generic [ref=e259]: 功能开关
+        - generic [ref=e260]:
+          - generic [ref=e261] [cursor=pointer]: 工具栏
+          - generic [ref=e266] [cursor=pointer]: 公式计算
+          - generic [ref=e271] [cursor=pointer]: 图表功能
+          - generic [ref=e276] [cursor=pointer]: 数据导出
+          - generic [ref=e281] [cursor=pointer]: 打印功能
+          - generic [ref=e286] [cursor=pointer]: 全屏模式
+        - generic [ref=e291]: 集成提示SheetX 提供完整的开放 API，支持从宿主系统传入用户信息、数据、权限等，打造无缝的企业级体验。
+        - generic [ref=e298]:
+          - button "重置配置" [ref=e299] [cursor=pointer]
+          - button "应用配置" [ref=e304] [cursor=pointer]
+      - complementary [ref=e308]:
+        - generic [ref=e309]:
+          - text: API 调试中心
+          - generic [ref=e314]: 在线
+        - tablist [ref=e316]:
+          - button "调用示例" [ref=e317] [cursor=pointer]
+          - button "响应结果" [ref=e318] [cursor=pointer]
+          - button "错误日志" [ref=e319] [cursor=pointer]
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - heading "获取用户信息" [level=4] [ref=e322]
+            - button "运行测试" [ref=e323] [cursor=pointer]
+          - paragraph [ref=e327]: 获取当前用户上下文信息
+          - generic [ref=e328]:
+            - button "复制代码" [ref=e329] [cursor=pointer]
+            - text: const user = await SheetX.getUser(); console.log(user);
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - heading "加载数据" [level=4] [ref=e336]
+            - button "运行测试" [ref=e337] [cursor=pointer]
+          - paragraph [ref=e341]: 加载表格数据
+          - generic [ref=e342]:
+            - button "复制代码" [ref=e343] [cursor=pointer]
+            - text: "const data = await SheetX.loadData({ url: '/api/data', method: 'GET' });"
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - heading "设置主题" [level=4] [ref=e350]
+            - button "运行测试" [ref=e351] [cursor=pointer]
+          - paragraph [ref=e355]: 切换表格主题风格
+          - generic [ref=e356]:
+            - button "复制代码" [ref=e357] [cursor=pointer]
+            - text: SheetX.setTheme('modern');
+        - generic [ref=e362]:
+          - generic [ref=e367]:
+            - generic [ref=e368]: 测试成功
+            - generic [ref=e369]: 响应时间：82ms
+          - link "查看详情 →" [ref=e370]:
+            - /url: "#"

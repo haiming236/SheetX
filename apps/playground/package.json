@@ -1,0 +1,25 @@
+{
+  "name": "@sheetx/playground",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SheetX 开发调试与演示应用（UI 阶段主战场）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "lit": "^3.3.3",
+    "@sheetx/web-component": "workspace:*",
+    "@sheetx/grid": "workspace:*",
+    "@sheetx/spreadsheet": "workspace:*",
+    "@sheetx/fonts": "workspace:*",
+    "@sheetx/formula": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

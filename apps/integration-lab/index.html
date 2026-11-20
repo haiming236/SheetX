@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SheetX · Integration Lab</title>
+  <style>
+    body { margin: 0; font-family: 'PingFang SC', system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 14px 18px; background: #fff; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 12px; }
+    header h1 { font-size: 16px; margin: 0; }
+    header .tag { font-size: 11px; color: #64748b; }
+    main { padding: 18px; display: grid; gap: 18px; }
+    section { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; }
+    section h2 { font-size: 13px; margin: 0 0 4px; }
+    section p { font-size: 11px; color: #64748b; margin: 0 0 12px; }
+    /* 模拟宿主页面：这里没有 Playground 导航、没有调试面板 */
+    .host-page { border: 1px dashed #cbd5e1; border-radius: 8px; padding: 10px; }
+    .host-title { font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+    sheetx-grid, sheetx-spreadsheet { display: block; width: 100%; height: 300px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SheetX · Integration Lab</h1>
+    <span class="tag">宿主集成测试 · 无 Playground 导航 · 表格由 SheetX 提供</span>
+  </header>
+  <main>
+    <section>
+      <h2>A. 原生 HTML 嵌入 · Grid（compact 预设）</h2>
+      <p>宿主页面只有自己的标题，SheetX 只负责表格区域。</p>
+      <div class="host-page">
+        <div class="host-title">商品管理（宿主 ERP 页面）</div>
+        <sheetx-grid id="demo-grid"></sheetx-grid>
+      </div>
+    </section>
+    <section>
+      <h2>B. 原生 HTML 嵌入 · Spreadsheet（spreadsheet 预设）</h2>
+      <div class="host-page">
+        <div class="host-title">财务报表（宿主 ERP 页面）</div>
+        <sheetx-spreadsheet id="demo-sheet"></sheetx-spreadsheet>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" width="100%" height="100%" aria-label="Sheet X">
+<!-- 建议在浅色背景下使用，如需透明背景，可直接移除 rect -->
+<rect width="100%" height="100%" fill="none" />
+<!-- 文字组：完美居中 -->
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="96" letter-spacing="-2">
+<!-- 'Sheet' 采用稳重的企业级深海蓝 (#0D2140)，'X' 采用富有活力的翡翠绿 (#00A86B) -->
+<text x="270" y="120" text-anchor="middle">
+<tspan fill="#0D2140">Sheet </tspan>
+<tspan fill="#00A86B">X</tspan>
+</text>
+</g>
+</svg>

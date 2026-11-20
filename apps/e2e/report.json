@@ -1,0 +1,14 @@
+{
+  "browser": "WebKit 27.2 (AppleWebKit/605.1.15)",
+  "note": "产品基线仍为 Chrome/Edge；沙箱内自动化进程无法启动，本轮在 WebKit 采集。CI 用 BROWSER=chrome bash apps/e2e/scripts/run.sh 补跑。",
+  "passed": 6,
+  "failed": 0,
+  "cases": [
+    { "name": "IME 组合期间不提交 / 结束后提交一次 / Esc 取消识别", "pass": true, "states": [true, false, true, false], "commits": ["你好"], "suppressed": true, "canceled": true },
+    { "name": "Excel TSV / HTML 粘贴优先级 + 复制写出 TSV", "pass": true, "tsvPass": true, "htmlPass": true, "copyPass": true },
+    { "name": "真实 paste 事件 → Grid mutation → 单元格值", "pass": true, "values": ["X", "Y", "Z", "W"] },
+    { "name": "方向键 / Enter 导航符合 Excel 习惯", "pass": true, "before": [0, 0], "afterRight": [0, 1], "afterEnter": [1, 1] },
+    { "name": "内联 Worker 真实执行 sort / aggregate", "pass": true, "mode": "worker", "sorted": ["r2", "r1", "r3"], "total": 60 },
+    { "name": "OffscreenCanvas 工作线程真实渲染（中心像素回传）", "pass": true, "available": true, "mode": "worker", "sample": [255, 0, 0, 255], "drawCalls": 1 }
+  ]
+}

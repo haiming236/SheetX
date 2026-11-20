@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+    - generic [ref=e83]:
+      - generic [ref=e84]: 嵌入式集成示例
+      - generic [ref=e85]: ← →
+      - button "切换到深色主题" [ref=e86] [cursor=pointer]
+  - generic [ref=e92]:
+    - generic [ref=e93]:
+      - img "Sheet X" [ref=e96]
+      - navigation [ref=e99]:
+        - button "首页" [ref=e100] [cursor=pointer]
+        - button "开发者文档" [ref=e101] [cursor=pointer]
+        - button "示例中心" [ref=e102] [cursor=pointer]
+        - button "API 参考" [ref=e103] [cursor=pointer]
+        - button "常见问题" [ref=e104] [cursor=pointer]
+      - textbox "搜索文档..." [ref=e110]
+      - button "主题" [ref=e111] [cursor=pointer]
+      - generic "宿主用户" [ref=e116]: 张
+    - generic [ref=e117]:
+      - complementary [ref=e118]:
+        - generic [ref=e119]: 开发者指南
+        - button "快速开始" [ref=e120] [cursor=pointer]
+        - button "嵌入式集成" [ref=e125] [cursor=pointer]
+        - button "Vue 集成示例" [ref=e134] [cursor=pointer]
+        - button "React 集成示例" [ref=e135] [cursor=pointer]
+        - button "原生 HTML 示例" [ref=e136] [cursor=pointer]
+        - button "API 参考" [ref=e137] [cursor=pointer]
+        - button "高级功能" [ref=e142] [cursor=pointer]
+        - button "最佳实践" [ref=e146] [cursor=pointer]
+        - button "开发工具" [ref=e150] [cursor=pointer]
+        - button "版本更新" [ref=e154] [cursor=pointer]
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e166]:
+            - heading "SheetX 嵌入式集成示例" [level=2] [ref=e167]
+            - paragraph [ref=e168]: 通过简单的配置，快速将 SheetX 嵌入到您的项目中，支持 Vue、React 和原生 HTML。
+          - generic [ref=e169]:
+            - button "在线体验" [ref=e170] [cursor=pointer]
+            - button "GitHub" [ref=e174] [cursor=pointer]
+        - generic [ref=e178]:
+          - button "V Vue 示例" [ref=e179] [cursor=pointer]:
+            - generic [ref=e180]: V
+            - text: Vue 示例
+          - button "R React 示例" [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]: R
+            - text: React 示例
+          - button "H HTML 示例" [ref=e183] [cursor=pointer]:
+            - generic [ref=e184]: H
+            - text: HTML 示例
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - text: Vue 集成示例
+              - button "复制代码" [ref=e193] [cursor=pointer]
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: "1"
+                - generic [ref=e201]: <template>
+              - generic [ref=e202]:
+                - generic [ref=e203]: "2"
+                - generic [ref=e204]: <div class="app">
+              - generic [ref=e205]:
+                - generic [ref=e206]: "3"
+                - generic [ref=e207]: <SheetX
+              - generic [ref=e208]:
+                - generic [ref=e209]: "4"
+                - generic [ref=e210]: :data="tableData"
+              - generic [ref=e211]:
+                - generic [ref=e212]: "5"
+                - generic [ref=e213]: :options="sheetOptions"
+              - generic [ref=e214]:
+                - generic [ref=e215]: "6"
+                - generic [ref=e216]: "@onChange=\"handleChange\""
+              - generic [ref=e217]:
+                - generic [ref=e218]: "7"
+                - generic [ref=e219]: />
+              - generic [ref=e220]:
+                - generic [ref=e221]: "8"
+                - generic [ref=e222]: </div>
+              - generic [ref=e223]:
+                - generic [ref=e224]: "9"
+                - generic [ref=e225]: </template>
+              - generic [ref=e226]: "10"
+              - generic [ref=e228]:
+                - generic [ref=e229]: "11"
+                - generic [ref=e230]: <script setup lang="ts">
+              - generic [ref=e231]:
+                - generic [ref=e232]: "12"
+                - generic [ref=e233]: "import { ref } from 'vue';"
+              - generic [ref=e234]:
+                - generic [ref=e235]: "13"
+                - generic [ref=e236]: "import { SheetX } from 'sheetx-vue';"
+              - generic [ref=e237]: "14"
+              - generic [ref=e239]:
+                - generic [ref=e240]: "15"
+                - generic [ref=e241]: const tableData = ref([
+              - generic [ref=e242]:
+                - generic [ref=e243]: "16"
+                - generic [ref=e244]: "{ name: '笔记本电脑', qty: 10, price: 5800 },"
+              - generic [ref=e245]:
+                - generic [ref=e246]: "17"
+                - generic [ref=e247]: "{ name: '平板电脑', qty: 20, price: 3200 },"
+              - generic [ref=e248]:
+                - generic [ref=e249]: "18"
+                - generic [ref=e250]: "{ name: '智能手机', qty: 30, price: 4200 },"
+              - generic [ref=e251]:
+                - generic [ref=e252]: "19"
+                - generic [ref=e253]: "]);"
+              - generic [ref=e254]: "20"
+              - generic [ref=e256]:
+                - generic [ref=e257]: "21"
+                - generic [ref=e258]: "const sheetOptions = {"
+              - generic [ref=e259]:
+                - generic [ref=e260]: "22"
+                - generic [ref=e261]: "columns: ["
+              - generic [ref=e262]:
+                - generic [ref=e263]: "23"
+                - generic [ref=e264]: "{ field: 'name', title: '产品名称', width: 160 },"
+              - generic [ref=e265]:
+                - generic [ref=e266]: "24"
+                - generic [ref=e267]: "{ field: 'qty', title: '数量', editor: 'number' },"
+              - generic [ref=e268]:
+                - generic [ref=e269]: "25"
+                - generic [ref=e270]: "{ field: 'price', title: '单价', editor: 'currency' },"
+              - generic [ref=e271]:
+                - generic [ref=e272]: "26"
+                - generic [ref=e273]: "{ field: 'total', title: '金额', computed: 'qty * price' },"
+              - generic [ref=e274]:
+                - generic [ref=e275]: "27"
+                - generic [ref=e276]: "],"
+              - generic [ref=e277]:
+                - generic [ref=e278]: "28"
+                - generic [ref=e279]: "virtualScroll: true,"
+              - generic [ref=e280]:
+                - generic [ref=e281]: "29"
+                - generic [ref=e282]: "};"
+              - generic [ref=e283]: "30"
+              - generic [ref=e285]:
+                - generic [ref=e286]: "31"
+                - generic [ref=e287]: "function handleChange(changes) {"
+              - generic [ref=e288]:
+                - generic [ref=e289]: "32"
+                - generic [ref=e290]: console.log('cell-change', changes);
+              - generic [ref=e291]:
+                - generic [ref=e292]: "33"
+                - generic [ref=e293]: "}"
+              - generic [ref=e294]:
+                - generic [ref=e295]: "34"
+                - generic [ref=e296]: </script>
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - text: 运行效果
+              - button "全屏预览" [ref=e303] [cursor=pointer]
+            - generic [ref=e307]:
+              - generic [ref=e308]:
+                - button [ref=e309] [cursor=pointer]
+                - button [ref=e314] [cursor=pointer]
+                - button [ref=e319] [cursor=pointer]
+                - generic [ref=e325]: 100%
+                - button [ref=e326] [cursor=pointer]
+                - button [ref=e331] [cursor=pointer]
+                - button [ref=e335] [cursor=pointer]
+                - button [ref=e339] [cursor=pointer]
+                - button [ref=e345] [cursor=pointer]
+                - button [ref=e349] [cursor=pointer]
+                - button [ref=e353] [cursor=pointer]
+                - generic [ref=e358]: 更多
+              - generic [ref=e359]:
+                - generic [ref=e361]: A
+                - generic [ref=e362]: B
+                - generic [ref=e363]: C
+                - generic [ref=e364]: D
+              - table [ref=e365]:
+                - rowgroup [ref=e366]:
+                  - row [ref=e367]:
+                    - columnheader "产品名称" [ref=e368]
+                    - columnheader "数量" [ref=e369]
+                    - columnheader "单价" [ref=e370]
+                    - columnheader "金额" [ref=e371]
+                - rowgroup [ref=e372]:
+                  - row [ref=e373]:
+                    - cell "笔记本电脑" [ref=e374]
+                    - cell "10" [ref=e375] [cursor=pointer]
+                    - cell "5,800" [ref=e376] [cursor=pointer]
+                    - cell "58,000" [ref=e377]
+                  - row [ref=e378]:
+                    - cell "平板电脑" [ref=e379]
+                    - cell "20" [ref=e380] [cursor=pointer]
+                    - cell "3,200" [ref=e381] [cursor=pointer]
+                    - cell "64,000" [ref=e382]
+                  - row [ref=e383]:
+                    - cell "智能手机" [ref=e384]
+                    - cell "30" [ref=e385] [cursor=pointer]
+                    - cell "4,200" [ref=e386] [cursor=pointer]
+                    - cell "126,000" [ref=e387]
+                  - row [ref=e388]:
+                    - cell "合计" [ref=e389]
+                    - cell "60" [ref=e390]
+                    - cell "—" [ref=e391]
+                    - cell "248,000" [ref=e392]
+              - generic [ref=e393]:
+                - generic [ref=e394]: Sheet1
+                - generic [ref=e395] [cursor=pointer]: ＋
+              - generic [ref=e396]:
+                - generic [ref=e397]: "[SheetX] 初始化完成 · 50 行虚拟滚动已就绪"
+                - generic [ref=e398]: "[SheetX] 数据绑定成功 · 3 条记录"
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e401]: 多种集成方式
+            - generic [ref=e407]:
+              - generic [ref=e408]:
+                - heading "1. CDN 引入" [level=4] [ref=e409]
+                - paragraph [ref=e415]: 通过 CDN 快速引入
+                - code [ref=e416]: <script src="https://cdn.sheetx.com/sheetx.js"></script>
+                - button "查看示例 →" [ref=e417] [cursor=pointer]
+              - generic [ref=e418]:
+                - heading "2. npm 安装" [level=4] [ref=e419]
+                - paragraph [ref=e426]: 使用 npm 安装依赖
+                - code [ref=e427]: npm install sheetx
+                - button "查看示例 →" [ref=e428] [cursor=pointer]
+              - generic [ref=e429]:
+                - heading "3. Web Components" [level=4] [ref=e430]
+                - paragraph [ref=e438]: 作为自定义元素使用
+                - code [ref=e439]: <sheetx-grid ref="sheet" />
+                - button "查看示例 →" [ref=e440] [cursor=pointer]
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - text: 事件回调
+              - button "说明" [ref=e447] [cursor=pointer]
+            - generic [ref=e448]:
+              - paragraph [ref=e449]: 监听各种事件，获取更丰富的交互体验。
+              - generic [ref=e450]: <SheetX @onLoad="handleLoad" @onChange="handleChange" @onSave="handleSave" />
+              - button "触发示例事件" [ref=e451] [cursor=pointer]

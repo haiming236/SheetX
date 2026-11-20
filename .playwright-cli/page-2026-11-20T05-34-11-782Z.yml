@@ -1,0 +1,325 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+    - generic [ref=e91]:
+      - generic [ref=e92]: 核心引擎架构可视化
+      - generic [ref=e93]: ← →
+      - button "切换到深色主题" [ref=e94] [cursor=pointer]
+  - generic [ref=e100]:
+    - generic [ref=e101]:
+      - img "Sheet X" [ref=e104]
+      - generic [ref=e107]:
+        - button "核心架构" [ref=e108] [cursor=pointer]
+        - button "技术优势" [ref=e109] [cursor=pointer]
+        - button "模块详解" [ref=e110] [cursor=pointer]
+        - button "扩展生态" [ref=e111] [cursor=pointer]
+        - button "应用场景" [ref=e112] [cursor=pointer]
+      - textbox "搜索架构文档..." [ref=e118]
+      - button "主题" [ref=e119] [cursor=pointer]
+      - generic [ref=e124]:
+        - generic [ref=e125]: 张
+        - text: 张
+    - generic [ref=e126]:
+      - heading "SheetX 核心引擎架构" [level=1] [ref=e127]
+      - paragraph [ref=e128]: 基于统一的高性能引擎，支持 Grid 和 Spreadsheet 双模式，提供强大的数据处理、渲染和扩展能力
+    - generic [ref=e129]:
+      - complementary [ref=e130]:
+        - generic [ref=e131]: 产品特性
+        - generic [ref=e135]:
+          - generic [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: 高性能渲染
+            - generic [ref=e143]: 百万级数据流畅体验
+          - generic [ref=e152] [cursor=pointer]:
+            - generic [ref=e153]: 双模式支持
+            - generic [ref=e154]: Grid + Spreadsheet
+          - generic [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]: 强大公式引擎
+            - generic [ref=e163]: Excel 兼容计算
+          - generic [ref=e169] [cursor=pointer]:
+            - generic [ref=e170]: 插件扩展
+            - generic [ref=e171]: 开放的开发生态
+          - generic [ref=e177] [cursor=pointer]:
+            - generic [ref=e178]: 多端适配
+            - generic [ref=e179]: Web / 桌面 / 移动
+          - generic [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: 稳定可靠
+            - generic [ref=e188]: 企业级质量保障
+      - generic [ref=e189]:
+        - generic [ref=e190]: SheetX 核心引擎
+        - generic [ref=e195]:
+          - generic [ref=e196] [cursor=pointer]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: 数据层
+              - generic [ref=e206]: Data
+            - list [ref=e207]:
+              - listitem [ref=e208]: 多数据源支持
+              - listitem [ref=e212]: 数据格式转换
+              - listitem [ref=e216]: 数据虚拟化
+          - generic [ref=e220] [cursor=pointer]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: 公式引擎
+              - generic [ref=e229]: Formula
+            - list [ref=e230]:
+              - listitem [ref=e231]: Excel 兼容公式
+              - listitem [ref=e235]: 自定义函数
+              - listitem [ref=e239]: 计算引擎优化
+          - generic [ref=e243] [cursor=pointer]:
+            - generic [ref=e249]:
+              - generic [ref=e250]: 交互层
+              - generic [ref=e251]: Interaction
+            - list [ref=e252]:
+              - listitem [ref=e253]: 单元格编辑
+              - listitem [ref=e257]: 选择操作
+              - listitem [ref=e261]: 事件处理
+          - generic [ref=e265] [cursor=pointer]:
+            - generic [ref=e274]:
+              - generic [ref=e275]: 渲染层
+              - generic [ref=e276]: Render
+            - list [ref=e277]:
+              - listitem [ref=e278]: 高性能渲染
+              - listitem [ref=e282]: 虚拟滚动
+              - listitem [ref=e286]: 多主题支持
+          - generic [ref=e290] [cursor=pointer]:
+            - generic [ref=e297]:
+              - generic [ref=e298]: 工作线程
+              - generic [ref=e299]: Worker
+            - list [ref=e300]:
+              - listitem [ref=e301]: 数据处理
+              - listitem [ref=e305]: 公式计算
+              - listitem [ref=e309]: 异步任务
+          - generic [ref=e313] [cursor=pointer]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: 插件系统
+              - generic [ref=e321]: Plugin
+            - list [ref=e322]:
+              - listitem [ref=e323]: 功能扩展
+              - listitem [ref=e327]: 自定义组件
+              - listitem [ref=e331]: 开发者 API
+          - generic [ref=e335] [cursor=pointer]:
+            - generic [ref=e342]:
+              - generic [ref=e343]: 适配层
+              - generic [ref=e344]: Adapter
+            - list [ref=e345]:
+              - listitem [ref=e346]: 多框架支持
+              - listitem [ref=e350]: 多平台适配
+              - listitem [ref=e354]: 数据源适配
+          - generic [ref=e358] [cursor=pointer]:
+            - generic [ref=e365]:
+              - generic [ref=e366]: 状态管理
+              - generic [ref=e367]: State
+            - list [ref=e368]:
+              - listitem [ref=e369]: 数据状态
+              - listitem [ref=e373]: 视图状态
+              - listitem [ref=e377]: 撤销重做
+          - generic [ref=e381]:
+            - generic [ref=e389]: SheetX核心引擎
+            - generic [ref=e390]: 统一架构 · 双模式驱动
+          - generic: ⇄
+          - generic: ⇄
+          - generic: ⇄
+          - generic: ⇄
+          - generic: ⇄
+          - generic: ⇄
+          - generic: ↕
+          - generic: ↕
+          - generic: ↕
+          - generic: ↕
+          - generic: ↕
+          - generic: ↕
+        - paragraph [ref=e392]: 点击任意模块查看职责说明与开放 API
+      - complementary [ref=e396]:
+        - generic [ref=e397]: 扩展生态
+        - generic [ref=e402]:
+          - generic [ref=e409] [cursor=pointer]:
+            - generic [ref=e410]: 自定义渲染器
+            - generic [ref=e411]: 支持个性化单元格渲染
+          - generic [ref=e417] [cursor=pointer]:
+            - generic [ref=e418]: 自定义编辑器
+            - generic [ref=e419]: 扩展更多编辑组件
+          - generic [ref=e425] [cursor=pointer]:
+            - generic [ref=e426]: 业务插件
+            - generic [ref=e427]: 集成企业业务功能
+          - generic [ref=e436] [cursor=pointer]:
+            - generic [ref=e437]: 主题定制
+            - generic [ref=e438]: 打造专属品牌风格
+          - generic [ref=e445] [cursor=pointer]:
+            - generic [ref=e446]: 第三方集成
+            - generic [ref=e447]: 与更多系统集成
+    - generic [ref=e448]:
+      - generic [ref=e449]: 应用支持
+      - generic [ref=e454]:
+        - generic [ref=e461] [cursor=pointer]:
+          - generic [ref=e462]: Web 应用
+          - generic [ref=e463]: 浏览器
+        - generic [ref=e469] [cursor=pointer]:
+          - generic [ref=e470]: 桌面应用
+          - generic [ref=e471]: Windows / macOS
+        - generic [ref=e480] [cursor=pointer]:
+          - generic [ref=e481]: 移动端
+          - generic [ref=e482]: iOS / Android
+        - generic [ref=e489] [cursor=pointer]:
+          - generic [ref=e490]: Vue
+          - generic [ref=e491]: 官方组件
+        - generic [ref=e498] [cursor=pointer]:
+          - generic [ref=e499]: React
+          - generic [ref=e500]: 官方组件
+        - generic [ref=e508] [cursor=pointer]:
+          - generic [ref=e509]: 更多框架
+          - generic [ref=e510]: 支持扩展

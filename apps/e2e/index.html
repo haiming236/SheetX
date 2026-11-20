@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheetX E2E · 浏览器交互验收</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; color: #1f2329; background: #f5f7fb; }
+      header { display: flex; align-items: center; gap: 12px; padding: 14px 20px; background: #fff; border-bottom: 1px solid #e5e8ed; }
+      header h1 { margin: 0; font-size: 16px; }
+      header .hint { font-size: 12px; color: #8a9099; }
+      button { margin-left: auto; height: 30px; padding: 0 14px; border: 1px solid #1a73e8; border-radius: 6px; background: #1a73e8; color: #fff; cursor: pointer; }
+      main { display: grid; grid-template-columns: 1fr 420px; gap: 14px; padding: 14px 20px 24px; }
+      #ime-input { width: 100%; height: 32px; padding: 0 10px; border: 1px solid #1a73e8; border-radius: 6px; margin-bottom: 10px; }
+      #grid-host { height: 260px; background: #fff; border: 1px solid #e5e8ed; border-radius: 8px; overflow: hidden; }
+      pre { margin: 0; height: 302px; overflow: auto; padding: 12px; background: #fff; border: 1px solid #e5e8ed; border-radius: 8px; font: 11.5px/1.6 'SF Mono', Menlo, monospace; white-space: pre-wrap; }
+      @media (max-width: 1100px) { main { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SheetX 浏览器交互验收</h1>
+      <span class="hint">真实 DOM CompositionEvent / ClipboardEvent / KeyboardEvent</span>
+      <button id="run">运行全部用例</button>
+    </header>
+    <main>
+      <div>
+        <input id="ime-input" placeholder="IME 测试输入（仅用于接收组合事件）" />
+        <div id="grid-host"></div>
+      </div>
+      <pre id="out">点击「运行全部用例」，或控制台执行 await window.__e2e.runAll()。</pre>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

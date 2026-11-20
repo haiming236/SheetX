@@ -1,0 +1,22 @@
+{
+  "name": "@sheetx/integration-lab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "\u5bbf\u4e3b\u7cfb\u7edf\u96c6\u6210\u6d4b\u8bd5\uff1a\u539f\u751f HTML / Vue / React \u5d4c\u5165 SheetX\uff08\u6d88\u8d39\u6784\u5efa\u4ea7\u7269\uff09",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@sheetx/web-component": "workspace:*",
+    "@sheetx/ui": "workspace:*",
+    "@sheetx/grid": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

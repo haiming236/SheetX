@@ -1,0 +1,401 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+    - generic [ref=e71]:
+      - generic [ref=e72]: 属性设置与企业个性化
+      - generic [ref=e73]: ← →
+      - button "切换到深色主题" [ref=e74] [cursor=pointer]
+  - generic [ref=e80]:
+    - generic [ref=e81]:
+      - img "Sheet X" [ref=e84]
+      - navigation [ref=e87]:
+        - button "文件" [ref=e88] [cursor=pointer]
+        - button "开始" [ref=e89] [cursor=pointer]
+        - button "插入" [ref=e90] [cursor=pointer]
+        - button "数据" [ref=e91] [cursor=pointer]
+        - button "公式" [ref=e92] [cursor=pointer]
+        - button "视图" [ref=e93] [cursor=pointer]
+        - button "设置" [ref=e94] [cursor=pointer]
+      - generic [ref=e95]:
+        - button "搜索" [ref=e96] [cursor=pointer]
+        - button "帮助" [ref=e101] [cursor=pointer]
+        - button "企业个性化配置" [ref=e107] [cursor=pointer]
+        - generic "宿主传入的用户信息" [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]: 张
+          - generic [ref=e114]: 张三
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - button "撤销" [ref=e120] [cursor=pointer]
+        - button "重做" [ref=e125] [cursor=pointer]
+        - button "打印" [ref=e130] [cursor=pointer]
+      - generic [ref=e136]:
+        - combobox [ref=e137]:
+          - option "微软雅黑" [selected]
+          - option "等线"
+          - option "宋体"
+          - option "黑体"
+          - option "Consolas"
+          - option "Arial"
+        - combobox [ref=e138]:
+          - option "10"
+          - option "11"
+          - option "12" [selected]
+          - option "14"
+          - option "16"
+          - option "18"
+          - option "20"
+          - option "24"
+        - button "粗体" [ref=e139] [cursor=pointer]
+        - button "斜体" [ref=e144] [cursor=pointer]
+        - button "下划线" [ref=e148] [cursor=pointer]
+        - button "字体颜色" [ref=e152] [cursor=pointer]
+        - button "填充颜色" [ref=e157] [cursor=pointer]
+      - generic [ref=e162]:
+        - button "左对齐" [ref=e163] [cursor=pointer]
+        - button "居中对齐" [ref=e167] [cursor=pointer]
+        - button "右对齐" [ref=e171] [cursor=pointer]
+        - button "两端对齐" [ref=e175] [cursor=pointer]
+      - generic [ref=e179]:
+        - button "合并单元格" [ref=e180] [cursor=pointer]
+        - combobox [ref=e188]:
+          - option "常规" [selected]
+          - option "数值"
+          - option "货币"
+          - option "会计专用"
+          - option "日期"
+          - option "百分比"
+          - option "分数"
+          - option "科学记数"
+          - option "文本"
+        - button "百分比" [ref=e189] [cursor=pointer]
+        - button "减少小数位" [ref=e195] [cursor=pointer]
+        - button "边框" [ref=e200] [cursor=pointer]
+        - button "筛选" [ref=e205] [cursor=pointer]
+        - button "更多" [ref=e209] [cursor=pointer]
+    - generic [ref=e213]:
+      - generic [ref=e214]: A1:F1
+      - generic [ref=e219]: fx
+      - textbox "输入公式或内容" [ref=e220]: 销售数据报表
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - heading "销售数据报表" [level=2] [ref=e228]
+            - generic [ref=e229]: 统计日期：2025-01-01 ~ 2025-12-31
+          - generic [ref=e230]:
+            - generic [ref=e232]: A
+            - generic [ref=e233]: B
+            - generic [ref=e234]: C
+            - generic [ref=e235]: D
+            - generic [ref=e236]: E
+          - table [ref=e237]:
+            - rowgroup [ref=e238]:
+              - row [ref=e239]:
+                - columnheader "产品名称" [ref=e240]
+                - columnheader "销售数量" [ref=e241]
+                - columnheader "销售金额（元）" [ref=e242]
+                - columnheader "同比增长" [ref=e243]
+                - columnheader "备注" [ref=e244]
+            - rowgroup [ref=e245]:
+              - row [ref=e246]:
+                - cell "笔记本电脑" [ref=e247]
+                - cell "1,250" [ref=e248]
+                - cell "¥ 1,892,500" [ref=e249]
+                - cell "▲12.5%" [ref=e250]:
+                  - generic [ref=e251]: ▲
+                  - text: 12.5%
+                - cell "增长良好" [ref=e252]
+              - row [ref=e253]:
+                - cell "平板电脑" [ref=e254]
+                - cell "980" [ref=e255]
+                - cell "¥ 784,000" [ref=e256]
+                - cell "▲8.3%" [ref=e257]:
+                  - generic [ref=e258]: ▲
+                  - text: 8.3%
+                - cell "稳定增长" [ref=e259]
+              - row [ref=e260]:
+                - cell "智能手机" [ref=e261]
+                - cell "1,860" [ref=e262]
+                - cell "¥ 2,976,000" [ref=e263]
+                - cell "▲15.8%" [ref=e264]:
+                  - generic [ref=e265]: ▲
+                  - text: 15.8%
+                - cell "表现优秀" [ref=e266]
+              - row [ref=e267]:
+                - cell "显示器" [ref=e268]
+                - cell "720" [ref=e269]
+                - cell "¥ 576,000" [ref=e270]
+                - cell "▲5.2%" [ref=e271]:
+                  - generic [ref=e272]: ▲
+                  - text: 5.2%
+                - cell "稳步增长" [ref=e273]
+              - row [ref=e274]:
+                - cell "路由器" [ref=e275]
+                - cell "640" [ref=e276]
+                - cell "¥ 416,000" [ref=e277]
+                - cell "▼2.1%" [ref=e278]:
+                  - generic [ref=e279]: ▼
+                  - text: 2.1%
+                - cell "略有下降" [ref=e280]
+              - row [ref=e281]:
+                - cell "耳机" [ref=e282]
+                - cell "920" [ref=e283]
+                - cell "¥ 552,000" [ref=e284]
+                - cell "▲6.7%" [ref=e285]:
+                  - generic [ref=e286]: ▲
+                  - text: 6.7%
+                - cell "保持增长" [ref=e287]
+              - row [ref=e288]:
+                - cell "合计" [ref=e289]
+                - cell "6,370" [ref=e290]
+                - cell "¥ 7,196,500" [ref=e291]
+                - cell "▲9.8%" [ref=e292]
+                - cell "—" [ref=e293]
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - heading "销售趋势分析" [level=3] [ref=e296]
+            - generic [ref=e297]:
+              - generic [ref=e298]: 2M
+              - generic [ref=e299]:
+                - generic "1月：¥ 920,000" [ref=e300]: 1月
+                - generic "2月：¥ 1,280,000" [ref=e303]: 2月
+                - generic "3月：¥ 1,540,000" [ref=e306]: 3月
+                - generic "4月：¥ 1,380,000" [ref=e309]: 4月
+                - generic "5月：¥ 1,710,000" [ref=e312]: 5月
+                - generic "6月：¥ 1,892,500" [ref=e315]: 6月
+            - generic [ref=e318]: ● 销售金额 · 单位：元 · 数据源 A2:F9
+          - generic [ref=e319]:
+            - heading "产品销售占比" [level=3] [ref=e320]
+            - generic [ref=e321]:
+              - img "产品销售占比饼图" [ref=e322]
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - generic [ref=e327]: 笔记本电脑
+                  - generic [ref=e328]: 32.1%
+                - generic [ref=e329]:
+                  - generic [ref=e331]: 平板电脑
+                  - generic [ref=e332]: 18.2%
+                - generic [ref=e333]:
+                  - generic [ref=e335]: 智能手机
+                  - generic [ref=e336]: 27.5%
+                - generic [ref=e337]:
+                  - generic [ref=e339]: 其他
+                  - generic [ref=e340]: 22.2%
+      - complementary [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e347]: 属性设置
+          - button "收起面板" [ref=e348] [cursor=pointer]
+        - tablist [ref=e352]:
+          - tab "单元格" [selected] [ref=e353] [cursor=pointer]
+          - tab "行列" [ref=e354] [cursor=pointer]
+          - tab "数据" [ref=e355] [cursor=pointer]
+          - tab "图表" [ref=e356] [cursor=pointer]
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: 单元格格式
+            - combobox [ref=e360]:
+              - option "常规" [selected]
+              - option "数值"
+              - option "货币"
+              - option "会计专用"
+              - option "日期"
+              - option "百分比"
+              - option "分数"
+              - option "科学记数"
+              - option "文本"
+          - generic [ref=e361]:
+            - generic [ref=e362]: 字体
+            - generic [ref=e363]:
+              - combobox [ref=e364]:
+                - option "微软雅黑" [selected]
+                - option "等线"
+                - option "宋体"
+                - option "黑体"
+                - option "Consolas"
+                - option "Arial"
+              - combobox [ref=e365]:
+                - option "10"
+                - option "11"
+                - option "12" [selected]
+                - option "14"
+                - option "16"
+                - option "18"
+                - option "20"
+                - option "24"
+            - generic [ref=e366]:
+              - button "粗体" [ref=e367] [cursor=pointer]
+              - button "斜体" [ref=e372] [cursor=pointer]
+              - button "下划线" [ref=e376] [cursor=pointer]
+              - button "字体颜色" [ref=e380] [cursor=pointer]
+              - button "填充颜色" [ref=e385] [cursor=pointer]
+          - generic [ref=e390]:
+            - generic [ref=e391]: 对齐方式
+            - generic [ref=e392]:
+              - button "左对齐" [ref=e393] [cursor=pointer]
+              - button "居中对齐" [ref=e397] [cursor=pointer]
+              - button "右对齐" [ref=e401] [cursor=pointer]
+              - button "两端对齐" [ref=e405] [cursor=pointer]
+              - button "顶端对齐" [ref=e410] [cursor=pointer]
+              - button "垂直居中" [ref=e414] [cursor=pointer]
+              - button "底端对齐" [ref=e418] [cursor=pointer]
+          - generic [ref=e422]:
+            - generic [ref=e423]: 文本换行
+            - button "文本换行" [ref=e424] [cursor=pointer]
+          - generic [ref=e426]:
+            - generic [ref=e427]: 边框与底纹
+            - generic [ref=e428]:
+              - button "左边框" [ref=e429] [cursor=pointer]
+              - button "右边框" [ref=e434] [cursor=pointer]
+              - button "上边框" [ref=e439] [cursor=pointer]
+              - button "下边框" [ref=e444] [cursor=pointer]
+              - button "边框样式" [ref=e450] [cursor=pointer]
+              - button "底纹颜色" [ref=e456] [cursor=pointer]
+          - generic [ref=e464]:
+            - generic [ref=e465]: 单元格大小
+            - generic [ref=e466]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: 行高
+                - spinbutton [ref=e469]: "24"
+                - generic [ref=e470]: px
+              - generic [ref=e471]: ×
+              - generic [ref=e472]:
+                - generic [ref=e473]: 列宽
+                - spinbutton [ref=e474]: "120"
+                - generic [ref=e475]: px
+            - generic [ref=e476]: 自动调整行高
+          - button "应用到范围" [ref=e481] [cursor=pointer]
+          - generic [ref=e485]:
+            - generic [ref=e486]: 最近应用可追溯
+            - generic [ref=e487]:
+              - generic [ref=e488]: 14:32
+              - generic [ref=e489]: A1:F1
+              - generic [ref=e490]: 标题样式 · 蓝底白字
+            - generic [ref=e491]:
+              - generic [ref=e492]: 14:35
+              - generic [ref=e493]: B3:D9
+              - generic [ref=e494]: "货币格式 · ¥ #,##0"
+    - generic [ref=e495]:
+      - generic [ref=e500]: 销售报表
+      - generic [ref=e501]:
+        - button "普通视图" [ref=e502] [cursor=pointer]
+        - button "页面布局" [ref=e509] [cursor=pointer]
+        - generic [ref=e514]: 100%
+        - slider [ref=e515]: "100"
+        - button "全屏" [ref=e516] [cursor=pointer]

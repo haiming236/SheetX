@@ -1,0 +1,476 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+      - link "40 渲染架构" [ref=e91]:
+        - /url: "#render-arch"
+        - generic [ref=e92]: "40"
+        - text: 渲染架构
+      - link "41 虚拟滚动" [ref=e93]:
+        - /url: "#virtual-scroll"
+        - generic [ref=e94]: "41"
+        - text: 虚拟滚动
+    - generic [ref=e95]:
+      - generic [ref=e96]: 虚拟滚动与百万级数据性能
+      - generic [ref=e97]: ← →
+      - button "切换到深色主题" [ref=e98] [cursor=pointer]
+  - generic [ref=e104]:
+    - generic [ref=e105]:
+      - img "Sheet X" [ref=e108]
+      - generic [ref=e111]:
+        - button "技术选型" [ref=e112] [cursor=pointer]
+        - button "渲染架构" [ref=e113] [cursor=pointer]
+        - button "性能优化" [ref=e114] [cursor=pointer]
+        - button "跨平台支持" [ref=e115] [cursor=pointer]
+        - button "生态兼容" [ref=e116] [cursor=pointer]
+      - textbox "搜索技术文档..." [ref=e122]
+      - button "主题" [ref=e123] [cursor=pointer]
+      - generic [ref=e128]:
+        - generic [ref=e129]: 张
+        - text: 张
+    - generic [ref=e130]:
+      - generic [ref=e137]:
+        - heading "SheetX 虚拟滚动与百万级数据性能设计" [level=1] [ref=e138]
+        - paragraph [ref=e139]: 通过行列虚拟化、动态渲染和智能缓存，实现百万级数据的流畅展示与高效交互。
+      - generic [ref=e140]:
+        - generic [ref=e146]:
+          - generic [ref=e147]: 60 FPS+
+          - generic [ref=e148]: 流畅滚动
+        - generic [ref=e156]:
+          - generic [ref=e157]: 1,000,000+
+          - generic [ref=e158]: 行数据支持
+        - generic [ref=e165]:
+          - generic [ref=e166]: < 200MB
+          - generic [ref=e167]: 内存占用
+        - generic [ref=e174]:
+          - generic [ref=e175]: < 50ms
+          - generic [ref=e176]: 响应延迟
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - text: 百万级数据表格 · 虚拟滚动演示
+          - generic [ref=e186]: 总数据：1,000,000 行 ｜ 当前渲染：18 行
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - generic [ref=e190]: ID
+            - generic [ref=e191]: 姓名
+            - generic [ref=e192]: 部门
+            - generic [ref=e193]: 职位
+            - generic [ref=e194]: 入职日期
+            - generic [ref=e195]: 薪资
+            - generic [ref=e196]: 状态
+            - generic [ref=e197]: 备注
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - checkbox [ref=e202]
+              - generic [ref=e203]: "104857"
+              - generic [ref=e204]: 张三
+              - generic [ref=e205]: 技术部
+              - generic [ref=e206]: 高级工程师
+              - generic [ref=e207]: 2023-01-01
+              - generic [ref=e208]: 8,000
+              - generic [ref=e209]: 离职
+              - generic [ref=e211]: 优秀员工
+            - generic [ref=e212]:
+              - checkbox [ref=e214]
+              - generic [ref=e215]: "104858"
+              - generic [ref=e216]: 李三
+              - generic [ref=e217]: 运营部
+              - generic [ref=e218]: 开发工程师
+              - generic [ref=e219]: 2023-02-02
+              - generic [ref=e220]: 9,000
+              - generic [ref=e221]: 在职
+              - generic [ref=e223]: 技术专家
+            - generic [ref=e224]:
+              - checkbox [ref=e226]
+              - generic [ref=e227]: "104859"
+              - generic [ref=e228]: 王三
+              - generic [ref=e229]: 产品部
+              - generic [ref=e230]: 客服代表
+              - generic [ref=e231]: 2023-03-03
+              - generic [ref=e232]: 10,000
+              - generic [ref=e233]: 在职
+              - generic [ref=e235]: 市场拓展
+            - generic [ref=e236]:
+              - checkbox [ref=e238]
+              - generic [ref=e239]: "104860"
+              - generic [ref=e240]: 赵三
+              - generic [ref=e241]: 市场部
+              - generic [ref=e242]: 运营经理
+              - generic [ref=e243]: 2023-04-04
+              - generic [ref=e244]: 11,000
+              - generic [ref=e245]: 在职
+              - generic [ref=e247]: 重点关注
+            - generic [ref=e248]:
+              - checkbox [ref=e250]
+              - generic [ref=e251]: "104861"
+              - generic [ref=e252]: 钱三
+              - generic [ref=e253]: 设计部
+              - generic [ref=e254]: 运营专员
+              - generic [ref=e255]: 2023-05-05
+              - generic [ref=e256]: 12,000
+              - generic [ref=e257]: 在职
+              - generic [ref=e259]: 产品负责人
+            - generic [ref=e260]:
+              - checkbox [ref=e262]
+              - generic [ref=e263]: "104862"
+              - generic [ref=e264]: 孙三
+              - generic [ref=e265]: 客服部
+              - generic [ref=e266]: UI 设计师
+              - generic [ref=e267]: 2023-06-06
+              - generic [ref=e268]: 13,000
+              - generic [ref=e269]: 在职
+              - generic [ref=e271]: 设计优秀
+            - generic [ref=e272]:
+              - checkbox [ref=e274]
+              - generic [ref=e275]: "104863"
+              - generic [ref=e276]: 周三
+              - generic [ref=e277]: 财务部
+              - generic [ref=e278]: 技术专家
+              - generic [ref=e279]: 2023-07-07
+              - generic [ref=e280]: 14,000
+              - generic [ref=e281]: 在职
+              - generic [ref=e283]: 表现良好
+            - generic [ref=e284]:
+              - checkbox [ref=e286]
+              - generic [ref=e287]: "104864"
+              - generic [ref=e288]: 吴三
+              - generic [ref=e289]: 技术部
+              - generic [ref=e290]: 产品经理
+              - generic [ref=e291]: 2023-08-08
+              - generic [ref=e292]: 15,000
+              - generic [ref=e293]: 在职
+              - generic [ref=e295]: 运营专家
+            - generic [ref=e296]:
+              - checkbox [ref=e298]
+              - generic [ref=e299]: "104865"
+              - generic [ref=e300]: 郑三
+              - generic [ref=e301]: 运营部
+              - generic [ref=e302]: 市场专员
+              - generic [ref=e303]: 2023-09-09
+              - generic [ref=e304]: 16,000
+              - generic [ref=e305]: 在职
+              - generic [ref=e307]: 服务标兵
+            - generic [ref=e308]:
+              - checkbox [ref=e310]
+              - generic [ref=e311]: "104866"
+              - generic [ref=e312]: 冯三
+              - generic [ref=e313]: 产品部
+              - generic [ref=e314]: 架构师
+              - generic [ref=e315]: 2023-10-10
+              - generic [ref=e316]: 17,000
+              - generic [ref=e317]: 在职
+              - generic [ref=e319]: 技术骨干
+            - generic [ref=e320]:
+              - checkbox [ref=e322]
+              - generic [ref=e323]: "104867"
+              - generic [ref=e324]: 陈三
+              - generic [ref=e325]: 市场部
+              - generic [ref=e326]: 高级工程师
+              - generic [ref=e327]: 2023-11-11
+              - generic [ref=e328]: 18,000
+              - generic [ref=e329]: 在职
+              - generic [ref=e331]: 优秀员工
+            - generic [ref=e332]:
+              - checkbox [ref=e334]
+              - generic [ref=e335]: "104868"
+              - generic [ref=e336]: 褚三
+              - generic [ref=e337]: 设计部
+              - generic [ref=e338]: 开发工程师
+              - generic [ref=e339]: 2023-12-12
+              - generic [ref=e340]: 19,000
+              - generic [ref=e341]: 试用
+              - generic [ref=e343]: 技术专家
+            - generic [ref=e344]:
+              - checkbox [ref=e346]
+              - generic [ref=e347]: "104869"
+              - generic [ref=e348]: 卫三
+              - generic [ref=e349]: 客服部
+              - generic [ref=e350]: 客服代表
+              - generic [ref=e351]: 2023-01-13
+              - generic [ref=e352]: 20,000
+              - generic [ref=e353]: 在职
+              - generic [ref=e355]: 市场拓展
+            - generic [ref=e356]:
+              - checkbox [ref=e358]
+              - generic [ref=e359]: "104870"
+              - generic [ref=e360]: 蒋三
+              - generic [ref=e361]: 财务部
+              - generic [ref=e362]: 运营经理
+              - generic [ref=e363]: 2023-02-14
+              - generic [ref=e364]: 21,000
+              - generic [ref=e365]: 在职
+              - generic [ref=e367]: 重点关注
+            - generic [ref=e368]:
+              - checkbox [ref=e370]
+              - generic [ref=e371]: "104871"
+              - generic [ref=e372]: 沈三
+              - generic [ref=e373]: 技术部
+              - generic [ref=e374]: 运营专员
+              - generic [ref=e375]: 2023-03-15
+              - generic [ref=e376]: 22,000
+              - generic [ref=e377]: 在职
+              - generic [ref=e379]: 产品负责人
+            - generic [ref=e380]:
+              - checkbox [ref=e382]
+              - generic [ref=e383]: "104872"
+              - generic [ref=e384]: 杨三
+              - generic [ref=e385]: 运营部
+              - generic [ref=e386]: UI 设计师
+              - generic [ref=e387]: 2023-04-16
+              - generic [ref=e388]: 23,000
+              - generic [ref=e389]: 在职
+              - generic [ref=e391]: 设计优秀
+            - generic [ref=e392]:
+              - checkbox [ref=e394]
+              - generic [ref=e395]: "104873"
+              - generic [ref=e396]: 张四
+              - generic [ref=e397]: 产品部
+              - generic [ref=e398]: 技术专家
+              - generic [ref=e399]: 2023-05-17
+              - generic [ref=e400]: 24,000
+              - generic [ref=e401]: 在职
+              - generic [ref=e403]: 表现良好
+            - generic [ref=e404]:
+              - checkbox [ref=e406]
+              - generic [ref=e407]: "104874"
+              - generic [ref=e408]: 李四
+              - generic [ref=e409]: 市场部
+              - generic [ref=e410]: 产品经理
+              - generic [ref=e411]: 2023-06-18
+              - generic [ref=e412]: 25,000
+              - generic [ref=e413]: 离职
+              - generic [ref=e415]: 运营专家
+          - generic [ref=e416]:
+            - generic [ref=e417]: 虚拟渲染
+            - text: 只渲染可视区域数据行
+        - generic [ref=e418]:
+          - generic [ref=e419]: 可视行 0 – 18
+          - button "动态行高" [ref=e424] [cursor=pointer]
+          - button "跳至 50 万行" [ref=e425] [cursor=pointer]
+          - generic [ref=e426]: 6 列 × 18 行 = 108 单元格
+      - complementary [ref=e427]:
+        - generic [ref=e428]: 虚拟滚动工作原理
+        - generic [ref=e433]:
+          - generic [ref=e439]:
+            - generic [ref=e440]: 可视区域计算
+            - generic [ref=e441]: 根据滚动位置计算可见行范围
+          - generic [ref=e450]:
+            - generic [ref=e451]: 数据获取
+            - generic [ref=e452]: 按需加载数据（支持分页 / 懒加载）
+          - generic [ref=e462]:
+            - generic [ref=e463]: 虚拟化渲染
+            - generic [ref=e464]: 只渲染可视区域的行列
+          - generic [ref=e471]:
+            - generic [ref=e472]: 缓存机制
+            - generic [ref=e473]: 复用行数据，减少重绘
+          - generic [ref=e481]:
+            - generic [ref=e482]: 流畅交互
+            - generic [ref=e483]: 大数据下依然保持 60 FPS+
+        - generic [ref=e484]: 大数据下依然保持 60 FPS+
+    - generic [ref=e489]:
+      - generic [ref=e490]:
+        - heading "性能对比测试" [level=4] [ref=e491]
+        - generic [ref=e496]:
+          - generic [ref=e497]: 传统渲染
+          - generic [ref=e499]: 虚拟渲染 (SheetX)
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - generic [ref=e503]: "80"
+            - generic [ref=e504]: "60"
+            - generic [ref=e505]: "40"
+            - generic [ref=e506]: "20"
+            - generic [ref=e507]: "0"
+          - img "性能对比折线图" [ref=e514]
+          - generic [ref=e516]:
+            - generic [ref=e517]: 10万
+            - generic [ref=e518]: 50万
+            - generic [ref=e519]: 100万
+        - generic [ref=e520]: 1,000,000 行依然保持 60 FPS+
+      - generic [ref=e521]:
+        - heading "核心优化策略" [level=4] [ref=e522]
+        - list [ref=e527]:
+          - listitem [ref=e528]: 行虚拟虚拟化：仅渲染可视区域
+          - listitem [ref=e533]: 动态行高：支持自适应行高
+          - listitem [ref=e538]: 智能缓存：复用渲染结果
+          - listitem [ref=e543]: 增量更新：最小化 DOM 操作
+          - listitem [ref=e548]: Web Worker：后台计算不阻塞 UI
+      - generic [ref=e553]:
+        - heading "性能指标" [level=4] [ref=e554]
+        - generic [ref=e559]:
+          - generic [ref=e560]:
+            - generic [ref=e561]: 60+ FPS
+            - generic [ref=e565]: 滚动流畅度
+          - generic [ref=e566]:
+            - generic [ref=e567]: < 200MB
+            - generic [ref=e572]: 内存占用
+          - generic [ref=e573]:
+            - generic [ref=e574]: < 50ms
+            - generic [ref=e579]: 响应延迟
+          - generic [ref=e580]:
+            - generic [ref=e581]: 1M+
+            - generic [ref=e587]: 行支持
+      - generic [ref=e588]:
+        - heading "适用场景" [level=4] [ref=e589]
+        - list [ref=e594]:
+          - listitem [ref=e595]: 大数据报表与分析
+          - listitem [ref=e600]: ERP 业务报表
+          - listitem [ref=e605]: 金融数据展示
+          - listitem [ref=e610]: 监控大屏展示
+          - listitem [ref=e615]: 海量数据管理系统

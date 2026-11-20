@@ -1,0 +1,304 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+    - generic [ref=e79]:
+      - generic [ref=e80]: 插件开发与扩展 API
+      - generic [ref=e81]: ← →
+      - button "切换到深色主题" [ref=e82] [cursor=pointer]
+  - generic [ref=e88]:
+    - generic [ref=e89]:
+      - img "Sheet X" [ref=e92]
+      - navigation [ref=e95]:
+        - button "文件" [ref=e96] [cursor=pointer]
+        - button "开始" [ref=e97] [cursor=pointer]
+        - button "插入" [ref=e98] [cursor=pointer]
+        - button "数据" [ref=e99] [cursor=pointer]
+        - button "公式" [ref=e100] [cursor=pointer]
+        - button "视图" [ref=e101] [cursor=pointer]
+        - button "设置" [ref=e102] [cursor=pointer]
+        - button "扩展" [ref=e103] [cursor=pointer]
+      - textbox "搜索功能..." [ref=e109]
+      - button "帮助" [ref=e110] [cursor=pointer]
+      - button "设置" [ref=e116] [cursor=pointer]
+      - generic "宿主用户" [ref=e121]: 张
+    - generic [ref=e122]:
+      - complementary [ref=e123]:
+        - button "插件中心" [ref=e124] [cursor=pointer]
+        - button "插件市场" [ref=e131] [cursor=pointer]
+        - button "我的插件" [ref=e137] [cursor=pointer]
+        - button "插件开发" [ref=e141] [cursor=pointer]
+        - button "插件管理" [ref=e146] [cursor=pointer]
+        - button "API 文档" [ref=e151] [cursor=pointer]
+        - button "开发者工具" [ref=e156] [cursor=pointer]
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - textbox "搜索插件名称或功能..." [ref=e164]
+              - combobox [ref=e165]:
+                - option "全部" [selected]
+                - option "数据处理"
+                - option "图表增强"
+                - option "办公效率"
+                - option "可视化"
+                - option "其他"
+            - generic [ref=e166]:
+              - button "全部" [ref=e167] [cursor=pointer]
+              - button "数据处理" [ref=e168] [cursor=pointer]
+              - button "图表增强" [ref=e169] [cursor=pointer]
+              - button "办公效率" [ref=e170] [cursor=pointer]
+              - button "可视化" [ref=e171] [cursor=pointer]
+              - button "其他" [ref=e172] [cursor=pointer]
+            - generic [ref=e173]:
+              - generic [ref=e174] [cursor=pointer]:
+                - generic [ref=e182]:
+                  - heading "二维码生成器" [level=4] [ref=e183]
+                  - paragraph [ref=e184]: 一键生成二维码，支持多种样式和批量生成
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: ★ 4.9
+                    - text: · 6.3 万次安装
+                - button "已安装" [ref=e187]
+              - generic [ref=e188] [cursor=pointer]:
+                - generic [ref=e193]:
+                  - heading "Excel 导入增强" [level=4] [ref=e194]
+                  - paragraph [ref=e195]: 更好的 Excel 导入体验，支持复杂格式解析
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: ★ 4.7
+                    - text: · 8.9 万次安装
+                - button "已安装" [ref=e198]
+              - generic [ref=e199] [cursor=pointer]:
+                - generic [ref=e204]:
+                  - heading "高级图表分析" [level=4] [ref=e205]
+                  - paragraph [ref=e206]: 提供更多专业图表类型和分析功能，支持数据洞察
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: ★ 4.8
+                    - text: · 12.5 万次安装
+                - button "安装" [ref=e209]
+              - generic [ref=e210] [cursor=pointer]:
+                - generic [ref=e216]:
+                  - heading "日期工具箱" [level=4] [ref=e217]
+                  - paragraph [ref=e218]: 日期计算、日期范围、工作日计算等实用工具
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: ★ 4.6
+                    - text: · 5.8 万次安装
+                - button "安装" [ref=e221]
+              - generic [ref=e222] [cursor=pointer]:
+                - generic [ref=e228]:
+                  - heading "翻译助手" [level=4] [ref=e229]
+                  - paragraph [ref=e230]: 支持多语言翻译，快速实现表格内容翻译
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: ★ 4.5
+                    - text: · 4.2 万次安装
+                - button "安装" [ref=e233]
+              - generic [ref=e234] [cursor=pointer]:
+                - generic [ref=e240]:
+                  - heading "代码高亮" [level=4] [ref=e241]
+                  - paragraph [ref=e242]: 在单元格中展示代码，支持多种编程语言
+                  - generic [ref=e243]:
+                    - generic [ref=e244]: ★ 4.7
+                    - text: · 3.1 万次安装
+                - button "安装" [ref=e245]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - generic [ref=e255]:
+                - heading "二维码生成器" [level=3] [ref=e256]
+                - paragraph [ref=e257]: 一键生成二维码，支持多种样式和批量生成
+                - generic [ref=e258]:
+                  - generic [ref=e259]: ★ 4.9
+                  - text: · 6.3 万次安装 · 开发者：SheetX Team
+              - generic [ref=e260]:
+                - button "已安装" [ref=e261] [cursor=pointer]
+                - button "预览效果" [ref=e262] [cursor=pointer]
+            - generic [ref=e266]:
+              - button "插件介绍" [ref=e267] [cursor=pointer]
+              - button "功能特性" [ref=e268] [cursor=pointer]
+              - button "使用说明" [ref=e269] [cursor=pointer]
+              - button "版本历史" [ref=e270] [cursor=pointer]
+            - generic [ref=e271]:
+              - generic [ref=e272]: 二维码生成器插件，支持文本、链接、WiFi、名片等多种类型的二维码生成，可自定义样式、颜色和尺寸，并支持批量生成。
+              - generic [ref=e273]:
+                - text: 插件开发示例
+                - generic [ref=e278]:
+                  - button "复制代码" [ref=e279] [cursor=pointer]
+                  - button "运行示例" [ref=e284] [cursor=pointer]
+              - generic [ref=e288]: "import { registerPlugin } from 'sheetx' registerPlugin({ id: 'qrcode', name: '二维码生成器', version: '1.0.0', install: (app) => { app.addToolbarButton({ icon: 'qrcode', title: '生成二维码', onClick: () => { // 打开二维码生成面板 } }) app.registerEditor('qrcode', QrcodeEditor) app.on('cell-change', handleChange) } })"
+              - generic [ref=e289]:
+                - heading "插件能力" [level=4] [ref=e290]
+                - generic [ref=e291]: 自定义工具栏按钮
+                - generic [ref=e297]: 自定义单元格渲染
+                - generic [ref=e303]: 监听表格事件
+                - generic [ref=e309]: 扩展数据处理
+                - generic [ref=e315]: 添加右键菜单
+                - generic [ref=e321]: 使用宿主 API
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - button "插件管理" [ref=e329] [cursor=pointer]
+            - button "开发者工具" [ref=e330] [cursor=pointer]
+            - button "运行日志" [ref=e331] [cursor=pointer]
+          - generic [ref=e333]:
+            - table [ref=e334]:
+              - rowgroup [ref=e335]:
+                - row [ref=e336]:
+                  - columnheader "插件名称" [ref=e337]
+                  - columnheader "版本" [ref=e338]
+                  - columnheader "状态" [ref=e339]
+                  - columnheader "安装时间" [ref=e340]
+                  - columnheader "操作" [ref=e341]
+              - rowgroup [ref=e342]:
+                - row [ref=e343]:
+                  - cell "二维码生成器" [ref=e344]
+                  - cell "1.0.0" [ref=e353]
+                  - cell "已启用" [ref=e354]
+                  - cell "2025-01-16 14:30:22" [ref=e360]
+                  - cell [ref=e361]:
+                    - generic [ref=e362]:
+                      - button "禁用" [ref=e363] [cursor=pointer]
+                      - button "卸载" [ref=e364] [cursor=pointer]
+                      - button "设置" [ref=e365] [cursor=pointer]
+                - row [ref=e366]:
+                  - cell "Excel 导入增强" [ref=e367]
+                  - cell "1.0.0" [ref=e373]
+                  - cell "已启用" [ref=e374]
+                  - cell "2025-01-15 09:12:18" [ref=e380]
+                  - cell [ref=e381]:
+                    - generic [ref=e382]:
+                      - button "禁用" [ref=e383] [cursor=pointer]
+                      - button "卸载" [ref=e384] [cursor=pointer]
+                      - button "设置" [ref=e385] [cursor=pointer]
+            - generic [ref=e386]:
+              - heading "开发者提示" [level=4] [ref=e387]
+              - paragraph [ref=e392]: SheetX 提供完整的插件开发 API，您可以使用前端技术轻松扩展更多功能。
+              - button "查看开发文档 →" [ref=e393] [cursor=pointer]

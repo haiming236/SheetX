@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+    - generic [ref=e87]:
+      - generic [ref=e88]: 综合功能 Playground
+      - generic [ref=e89]: ← →
+      - button "切换到深色主题" [ref=e90] [cursor=pointer]
+  - generic [ref=e96]:
+    - generic [ref=e97]:
+      - img "Sheet X" [ref=e100]
+      - generic [ref=e103]: 综合功能 Playground
+      - generic [ref=e104]: 在线体验中心
+      - textbox "搜索功能..." [ref=e111]
+      - button "主题" [ref=e112] [cursor=pointer]
+      - generic "宿主用户" [ref=e117]: 张
+    - generic [ref=e118]:
+      - button "Grid 模式" [ref=e119] [cursor=pointer]
+      - button "Spreadsheet" [ref=e126] [cursor=pointer]
+      - generic [ref=e127]:
+        - button "撤销" [ref=e128] [cursor=pointer]
+        - button "重做" [ref=e133] [cursor=pointer]
+        - generic [ref=e138]: 丨
+        - button "插入" [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - combobox [ref=e144]:
+          - option "格式" [selected]
+          - option "数字"
+        - button "编辑" [ref=e145] [cursor=pointer]
+        - combobox [ref=e149]:
+          - option "微软雅黑" [selected]
+          - option "PingFang SC"
+        - combobox [ref=e150]:
+          - option "14" [selected]
+          - option "12"
+        - button [ref=e151] [cursor=pointer]
+        - button [ref=e156] [cursor=pointer]
+        - button [ref=e160] [cursor=pointer]
+        - button [ref=e164] [cursor=pointer]
+        - button [ref=e169] [cursor=pointer]
+      - generic [ref=e174]:
+        - button [ref=e175] [cursor=pointer]
+        - button [ref=e179] [cursor=pointer]
+        - button [ref=e183] [cursor=pointer]
+        - button [ref=e187] [cursor=pointer]
+        - button [ref=e194] [cursor=pointer]
+        - button "更多" [ref=e199] [cursor=pointer]
+      - generic [ref=e203]:
+        - button "切换主题" [ref=e204] [cursor=pointer]
+        - button [ref=e208] [cursor=pointer]
+    - generic [ref=e212]:
+      - generic [ref=e213]: C3
+      - generic [ref=e217]: fx
+      - textbox [ref=e218]
+    - generic [ref=e219]:
+      - complementary [ref=e220]:
+        - button "功能演示" [ref=e221] [cursor=pointer]
+        - button "公式计算" [ref=e228] [cursor=pointer]
+        - button "数据处理" [ref=e233] [cursor=pointer]
+        - button "筛选排序" [ref=e239] [cursor=pointer]
+        - button "条件格式" [ref=e243] [cursor=pointer]
+        - button "图表分析" [ref=e249] [cursor=pointer]
+        - button "冻结与分屏" [ref=e253] [cursor=pointer]
+        - button "数据验证" [ref=e258] [cursor=pointer]
+        - button "打印导出" [ref=e263] [cursor=pointer]
+        - button "主题切换" [ref=e269] [cursor=pointer]
+        - generic [ref=e276]:
+          - heading "SheetX" [level=4] [ref=e277]
+          - paragraph [ref=e282]: 开箱即用，功能强大，让表格开发更简单！
+          - button "了解更多 →" [ref=e283] [cursor=pointer]
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - text: SheetX 综合功能演示表格
+            - generic [ref=e290]: 强大的表格组件，支持多种业务场景
+          - generic [ref=e291]:
+            - generic [ref=e293]: A
+            - generic [ref=e294]: B
+            - generic [ref=e295]: C
+            - generic [ref=e296]: D
+            - generic [ref=e297]: E
+            - generic [ref=e298]: F
+            - generic [ref=e299]: G
+          - table [ref=e300]:
+            - rowgroup [ref=e301]:
+              - row [ref=e302]:
+                - columnheader "产品名称" [ref=e303]
+                - columnheader "类别" [ref=e304]
+                - columnheader "单价" [ref=e305]
+                - columnheader "数量" [ref=e306]
+                - columnheader "金额" [ref=e307]
+                - columnheader "状态" [ref=e308]
+                - columnheader "备注" [ref=e309]
+            - rowgroup [ref=e310]:
+              - row [ref=e311]:
+                - cell "笔记本电脑" [ref=e312]
+                - cell "电子产品" [ref=e313]
+                - cell "5,800" [ref=e314]
+                - cell "10" [ref=e315]
+                - cell "58,000" [ref=e316]
+                - cell "已发货" [ref=e317]
+                - cell "轻薄本" [ref=e319]
+              - row [ref=e320]:
+                - cell "平板电脑" [ref=e321]
+                - cell "电子产品" [ref=e322]
+                - cell "3,200" [ref=e323]
+                - cell "20" [ref=e324]
+                - cell "64,000" [ref=e325]
+                - cell "处理中" [ref=e326]
+                - cell "11 寸" [ref=e328]
+              - row [ref=e329]:
+                - cell "智能手机" [ref=e330]
+                - cell "电子产品" [ref=e331]
+                - cell "4,200" [ref=e332]
+                - cell "15" [ref=e333]
+                - cell "63,000" [ref=e334]
+                - cell "已发货" [ref=e335]
+                - cell "旗舰款" [ref=e337]
+              - row [ref=e338]:
+                - cell "无线耳机" [ref=e339]
+                - cell "数码配件" [ref=e340]
+                - cell "1,200" [ref=e341]
+                - cell "30" [ref=e342]
+                - cell "36,000" [ref=e343]
+                - cell "待发货" [ref=e344]
+                - cell "蓝牙 5.3" [ref=e346]
+              - row [ref=e347]:
+                - cell "智能手表" [ref=e348]
+                - cell "数码配件" [ref=e349]
+                - cell "1,800" [ref=e350]
+                - cell "25" [ref=e351]
+                - cell "45,000" [ref=e352]
+                - cell "已发货" [ref=e353]
+                - cell "运动版" [ref=e355]
+              - row [ref=e356]:
+                - cell "合计" [ref=e357]
+                - cell "—" [ref=e358]
+                - cell "—" [ref=e359]
+                - cell "100" [ref=e360]
+                - cell "266,000" [ref=e361]
+                - cell "5 条记录" [ref=e362]
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - heading "销售趋势" [level=3] [ref=e365]
+            - generic [ref=e373]:
+              - generic [ref=e374]: 1月
+              - generic [ref=e375]: 2月
+              - generic [ref=e376]: 3月
+              - generic [ref=e377]: 4月
+              - generic [ref=e378]: 5月
+              - generic [ref=e379]: 6月
+          - generic [ref=e380]:
+            - heading "产品分类占比" [level=3] [ref=e381]
+            - generic [ref=e386]:
+              - generic [ref=e387]: 266,000总金额
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - generic [ref=e392]: 电子产品
+                  - generic [ref=e393]: 55%
+                - generic [ref=e394]:
+                  - generic [ref=e396]: 数码配件
+                  - generic [ref=e397]: 45%
+      - complementary [ref=e398]:
+        - generic [ref=e399]: 配置面板
+        - generic [ref=e404]: 基本配置
+        - generic [ref=e405]: 渲染模式
+        - generic [ref=e406] [cursor=pointer]: 表格模式
+        - generic [ref=e408] [cursor=pointer]: 电子表格
+        - generic [ref=e410]: 主题风格
+        - combobox [ref=e411]:
+          - option "Light 亮色" [selected]
+          - option "Dark 暗色"
+          - option "Tech 科技蓝"
+          - option "Fresh 清新绿"
+        - generic [ref=e412]: 表格密度
+        - combobox [ref=e413]:
+          - option "默认" [selected]
+          - option "紧凑"
+          - option "宽松"
+        - generic [ref=e414]: 功能开关
+        - generic [ref=e415]:
+          - text: 公式计算
+          - button [ref=e416] [cursor=pointer]
+        - generic [ref=e418]:
+          - text: 筛选排序
+          - button [ref=e419] [cursor=pointer]
+        - generic [ref=e421]:
+          - text: 条件格式
+          - button [ref=e422] [cursor=pointer]
+        - generic [ref=e424]:
+          - text: 图表分析
+          - button [ref=e425] [cursor=pointer]
+        - generic [ref=e427]:
+          - text: 打印导出
+          - button [ref=e428] [cursor=pointer]
+        - generic [ref=e430]: 数据来源
+        - generic [ref=e431]:
+          - button "本地数据" [ref=e432] [cursor=pointer]
+          - button "远程接口" [ref=e433] [cursor=pointer]
+          - button "示例数据" [ref=e434] [cursor=pointer]
+        - generic [ref=e435]: 体验完整功能，感受 SheetX 的强大与易用！
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - text: 更多功能演示
+        - button "查看更多功能 →" [ref=e443] [cursor=pointer]
+      - generic [ref=e444]:
+        - generic [ref=e445] [cursor=pointer]:
+          - generic [ref=e450]: 数据编辑
+          - generic [ref=e451]: 单元格
+        - generic [ref=e452] [cursor=pointer]:
+          - generic [ref=e458]: 公式计算
+          - generic [ref=e459]: =SUM
+        - generic [ref=e460] [cursor=pointer]:
+          - generic [ref=e465]: 筛选排序
+          - generic [ref=e466]: 多条件
+        - generic [ref=e467] [cursor=pointer]:
+          - generic [ref=e474]: 条件格式
+          - generic [ref=e475]: 色阶
+        - generic [ref=e476] [cursor=pointer]:
+          - generic [ref=e482]: 数据验证
+          - generic [ref=e483]: 校验
+        - generic [ref=e484] [cursor=pointer]:
+          - generic [ref=e489]: 图表分析
+          - generic [ref=e490]: 可视化
+        - generic [ref=e491] [cursor=pointer]:
+          - generic [ref=e498]: 打印导出
+          - generic [ref=e499]: PDF
+        - generic [ref=e500] [cursor=pointer]:
+          - generic [ref=e508]: 主题切换
+          - generic [ref=e509]: 换肤

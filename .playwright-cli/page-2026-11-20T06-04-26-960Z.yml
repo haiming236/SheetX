@@ -1,0 +1,418 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "Sheet X" [ref=e6]
+    - tablist "视图切换" [ref=e9]:
+      - link "首页" [ref=e10]:
+        - /url: "#home"
+      - link "01 主界面" [ref=e12]:
+        - /url: "#spreadsheet"
+        - generic [ref=e13]: "01"
+        - text: 主界面
+      - link "02 业务网格" [ref=e14]:
+        - /url: "#grid"
+        - generic [ref=e15]: "02"
+        - text: 业务网格
+      - link "03 完整表格" [ref=e16]:
+        - /url: "#sheet-full"
+        - generic [ref=e17]: "03"
+        - text: 完整表格
+      - link "04 编辑器" [ref=e18]:
+        - /url: "#editors"
+        - generic [ref=e19]: "04"
+        - text: 编辑器
+      - link "05 虚拟滚动" [ref=e20]:
+        - /url: "#virtual"
+        - generic [ref=e21]: "05"
+        - text: 虚拟滚动
+      - link "06 公式" [ref=e23]:
+        - /url: "#formula"
+        - generic [ref=e24]: "06"
+        - text: 公式
+      - link "07 导入导出" [ref=e25]:
+        - /url: "#data"
+        - generic [ref=e26]: "07"
+        - text: 导入导出
+      - link "08 右键菜单" [ref=e27]:
+        - /url: "#context"
+        - generic [ref=e28]: "08"
+        - text: 右键菜单
+      - link "09 筛选排序" [ref=e29]:
+        - /url: "#filter"
+        - generic [ref=e30]: "09"
+        - text: 筛选排序
+      - link "10 主题" [ref=e31]:
+        - /url: "#settings"
+        - generic [ref=e32]: "10"
+        - text: 主题
+      - link "11 工作簿" [ref=e34]:
+        - /url: "#workbook"
+        - generic [ref=e35]: "11"
+        - text: 工作簿
+      - link "12 图表" [ref=e36]:
+        - /url: "#charts"
+        - generic [ref=e37]: "12"
+        - text: 图表
+      - link "13 透视表" [ref=e38]:
+        - /url: "#pivot"
+        - generic [ref=e39]: "13"
+        - text: 透视表
+      - link "14 批阅" [ref=e40]:
+        - /url: "#review"
+        - generic [ref=e41]: "14"
+        - text: 批阅
+      - link "15 数据验证" [ref=e42]:
+        - /url: "#validate"
+        - generic [ref=e43]: "15"
+        - text: 数据验证
+      - link "16 引擎" [ref=e45]:
+        - /url: "#engine"
+        - generic [ref=e46]: "16"
+        - text: 引擎
+      - link "17 打印" [ref=e47]:
+        - /url: "#print"
+        - generic [ref=e48]: "17"
+        - text: 打印
+      - link "18 格式" [ref=e49]:
+        - /url: "#format"
+        - generic [ref=e50]: "18"
+        - text: 格式
+      - link "19 函数库" [ref=e51]:
+        - /url: "#formula-lib"
+        - generic [ref=e52]: "19"
+        - text: 函数库
+      - link "20 历史" [ref=e53]:
+        - /url: "#history"
+        - generic [ref=e54]: "20"
+        - text: 历史
+      - link "21 导入" [ref=e55]:
+        - /url: "#import"
+        - generic [ref=e56]: "21"
+        - text: 导入
+      - link "22 高级筛选" [ref=e57]:
+        - /url: "#adv-filter"
+        - generic [ref=e58]: "22"
+        - text: 高级筛选
+      - link "23 多视图" [ref=e59]:
+        - /url: "#multi-view"
+        - generic [ref=e60]: "23"
+        - text: 多视图
+      - link "24 插件" [ref=e61]:
+        - /url: "#plugins"
+        - generic [ref=e62]: "24"
+        - text: 插件
+      - link "25 属性" [ref=e63]:
+        - /url: "#properties"
+        - generic [ref=e64]: "25"
+        - text: 属性
+      - link "26 宿主集成" [ref=e65]:
+        - /url: "#host"
+        - generic [ref=e66]: "26"
+        - text: 宿主集成
+      - link "27 数据源" [ref=e67]:
+        - /url: "#datasource"
+        - generic [ref=e68]: "27"
+        - text: 数据源
+      - link "28 事务提交" [ref=e69]:
+        - /url: "#edit"
+        - generic [ref=e70]: "28"
+        - text: 事务提交
+      - link "29 权限安全" [ref=e71]:
+        - /url: "#permission"
+        - generic [ref=e72]: "29"
+        - text: 权限安全
+      - link "30 国际化" [ref=e73]:
+        - /url: "#i18n"
+        - generic [ref=e74]: "30"
+        - text: 国际化
+      - link "32 快捷键" [ref=e75]:
+        - /url: "#keyboard"
+        - generic [ref=e76]: "32"
+        - text: 快捷键
+      - link "33 插件开发" [ref=e77]:
+        - /url: "#plugin-dev"
+        - generic [ref=e78]: "33"
+        - text: 插件开发
+      - link "34 性能监控" [ref=e79]:
+        - /url: "#debug"
+        - generic [ref=e80]: "34"
+        - text: 性能监控
+      - link "35 集成示例" [ref=e81]:
+        - /url: "#embed"
+        - generic [ref=e82]: "35"
+        - text: 集成示例
+      - link "36 API 文档" [ref=e83]:
+        - /url: "#api-doc"
+        - generic [ref=e84]: "36"
+        - text: API 文档
+      - link "37 综合体验" [ref=e85]:
+        - /url: "#playground-all"
+        - generic [ref=e86]: "37"
+        - text: 综合体验
+      - link "38 双模式对比" [ref=e87]:
+        - /url: "#dual-mode"
+        - generic [ref=e88]: "38"
+        - text: 双模式对比
+      - link "39 引擎架构" [ref=e89]:
+        - /url: "#engine-arch"
+        - generic [ref=e90]: "39"
+        - text: 引擎架构
+      - link "40 渲染架构" [ref=e91]:
+        - /url: "#render-arch"
+        - generic [ref=e92]: "40"
+        - text: 渲染架构
+      - link "41 虚拟滚动" [ref=e93]:
+        - /url: "#virtual-scroll"
+        - generic [ref=e94]: "41"
+        - text: 虚拟滚动
+      - link "44 AI 助手" [ref=e95]:
+        - /url: "#ai-assistant"
+        - generic [ref=e96]: "44"
+        - text: AI 助手
+      - link "45 AI 生成" [ref=e97]:
+        - /url: "#ai-generate"
+        - generic [ref=e98]: "45"
+        - text: AI 生成
+    - generic [ref=e99]:
+      - generic [ref=e100]: 主工作界面
+      - generic [ref=e101]: ← →
+      - button "切换到深色主题" [ref=e102] [cursor=pointer]
+  - generic [ref=e108]:
+    - generic [ref=e109]:
+      - img "Sheet X" [ref=e112]
+      - navigation [ref=e115]:
+        - button "文件" [ref=e116] [cursor=pointer]
+        - button "开始" [ref=e117] [cursor=pointer]
+        - button "插入" [ref=e118] [cursor=pointer]
+        - button "数据" [ref=e119] [cursor=pointer]
+        - button "公式" [ref=e120] [cursor=pointer]
+        - button "视图" [ref=e121] [cursor=pointer]
+        - button "设置" [ref=e122] [cursor=pointer]
+      - generic [ref=e123]:
+        - textbox "搜索 (Ctrl + F)" [ref=e129]
+        - button "帮助" [ref=e130] [cursor=pointer]
+        - button "切换深色" [ref=e136] [cursor=pointer]
+        - generic [ref=e141]: 张
+    - generic [ref=e142]:
+      - button "撤销" [ref=e143] [cursor=pointer]
+      - button "重做" [ref=e148] [cursor=pointer]
+      - button "思源黑体" [ref=e154] [cursor=pointer]
+      - button "12" [ref=e159] [cursor=pointer]
+      - button "加粗" [ref=e165] [cursor=pointer]
+      - button "斜体" [ref=e170] [cursor=pointer]
+      - button "下划线" [ref=e174] [cursor=pointer]
+      - button "字体颜色" [ref=e178] [cursor=pointer]
+      - button "left对齐" [ref=e184] [cursor=pointer]
+      - button "center对齐" [ref=e188] [cursor=pointer]
+      - button "right对齐" [ref=e192] [cursor=pointer]
+      - button "justify对齐" [ref=e196] [cursor=pointer]
+      - button "合并居中" [ref=e200] [cursor=pointer]
+      - button "常规" [ref=e206] [cursor=pointer]
+      - button "货币" [ref=e211] [cursor=pointer]
+      - button "百分比" [ref=e215] [cursor=pointer]
+      - button "减少小数位" [ref=e221] [cursor=pointer]
+      - button "增加小数位" [ref=e226] [cursor=pointer]
+      - button "条件格式" [ref=e231] [cursor=pointer]
+      - button "数据验证" [ref=e238] [cursor=pointer]
+      - button "筛选" [ref=e244] [cursor=pointer]
+      - button "排序" [ref=e249] [cursor=pointer]
+      - button "冻结" [ref=e254] [cursor=pointer]
+    - generic [ref=e260]:
+      - generic [ref=e261]: B1
+      - generic [ref=e266]: fx
+      - textbox "公式输入框" [ref=e267]: 北京分公司
+    - generic [ref=e268]:
+      - table [ref=e270]:
+        - rowgroup [ref=e271]:
+          - row [ref=e272]:
+            - columnheader [ref=e273]
+            - columnheader "A" [ref=e274]
+            - columnheader "B" [ref=e275]
+            - columnheader "C" [ref=e276]
+            - columnheader "D" [ref=e277]
+            - columnheader "E" [ref=e278]
+            - columnheader "F" [ref=e279]
+            - columnheader "G" [ref=e280]
+        - rowgroup [ref=e281]:
+          - row [ref=e282]:
+            - rowheader [ref=e283]
+            - cell "序号" [ref=e284]
+            - cell "地区" [ref=e285]
+            - cell "销售部门" [ref=e286]
+            - cell "销售额（万元）" [ref=e287]
+            - cell "完成率" [ref=e288]
+            - cell "负责人" [ref=e289]
+            - cell "备注" [ref=e290]
+          - row [ref=e291]:
+            - rowheader "1" [ref=e292]
+            - cell "1" [ref=e293]
+            - cell "北京分公司" [ref=e295]
+            - cell "销售一部" [ref=e297]
+            - cell "128.5" [ref=e299]
+            - cell "92%" [ref=e301]
+            - cell "张三" [ref=e307]
+            - cell "重点客户" [ref=e309]
+          - row [ref=e311]:
+            - rowheader "2" [ref=e312]
+            - cell "2" [ref=e313]
+            - cell "上海分公司" [ref=e315]
+            - cell "销售二部" [ref=e317]
+            - cell "115.0" [ref=e319]
+            - cell "85%" [ref=e321]
+            - cell "李四" [ref=e327]
+            - cell "增长良好" [ref=e329]
+          - row [ref=e331]:
+            - rowheader "3" [ref=e332]
+            - cell "3" [ref=e333]
+            - cell "广州分公司" [ref=e335]
+            - cell "销售一部" [ref=e337]
+            - cell "98.6" [ref=e339]
+            - cell "76%" [ref=e341]
+            - cell "王五" [ref=e347]
+            - cell "潜力客户" [ref=e349]
+          - row [ref=e351]:
+            - rowheader "4" [ref=e352]
+            - cell "4" [ref=e353]
+            - cell "深圳分公司" [ref=e355]
+            - cell "销售三部" [ref=e357]
+            - cell "132.7" [ref=e359]
+            - cell "98%" [ref=e361]
+            - cell "赵六" [ref=e367]
+            - cell "业绩优秀" [ref=e369]
+          - row [ref=e371]:
+            - rowheader "5" [ref=e372]
+            - cell "5" [ref=e373]
+            - cell "成都分公司" [ref=e375]
+            - cell "销售二部" [ref=e377]
+            - cell "87.3" [ref=e379]
+            - cell "64%" [ref=e381]
+            - cell "钱七" [ref=e387]
+            - cell "需要跟进" [ref=e389]
+          - row [ref=e391]:
+            - rowheader "6" [ref=e392]
+            - cell "6" [ref=e393]
+            - cell "杭州分公司" [ref=e395]
+            - cell "销售一部" [ref=e397]
+            - cell "110.2" [ref=e399]
+            - cell "81%" [ref=e401]
+            - cell "孙八" [ref=e407]
+            - cell "稳定增长" [ref=e409]
+          - row [ref=e411]:
+            - rowheader "7" [ref=e412]
+            - cell "7" [ref=e413]
+            - cell "武汉分公司" [ref=e415]
+            - cell "销售三部" [ref=e417]
+            - cell "95.8" [ref=e419]
+            - cell "71%" [ref=e421]
+            - cell "周九" [ref=e427]
+            - cell "表现良好" [ref=e429]
+          - row [ref=e431]:
+            - rowheader "8" [ref=e432]
+            - cell "8" [ref=e433]
+            - cell "南京分公司" [ref=e435]
+            - cell "销售二部" [ref=e437]
+            - cell "120.0" [ref=e439]
+            - cell "88%" [ref=e441]
+            - cell "吴十" [ref=e447]
+            - cell "重点维护" [ref=e449]
+          - row [ref=e451]:
+            - rowheader "9" [ref=e452]
+            - cell "9" [ref=e453]
+            - cell "重庆分公司" [ref=e455]
+            - cell "销售一部" [ref=e457]
+            - cell "103.9" [ref=e459]
+            - cell "79%" [ref=e461]
+            - cell "郑十一" [ref=e467]
+            - cell "持续增长" [ref=e469]
+          - row [ref=e471]:
+            - columnheader "10" [ref=e472]
+            - cell [ref=e473]
+            - cell [ref=e474]
+            - cell [ref=e475]
+            - cell [ref=e476]
+            - cell [ref=e477]
+            - cell [ref=e478]
+            - cell [ref=e479]
+          - row [ref=e480]:
+            - columnheader "11" [ref=e481]
+            - cell [ref=e482]
+            - cell [ref=e483]
+            - cell [ref=e484]
+            - cell [ref=e485]
+            - cell [ref=e486]
+            - cell [ref=e487]
+            - cell [ref=e488]
+          - row [ref=e489]:
+            - columnheader "12" [ref=e490]
+            - cell [ref=e491]
+            - cell [ref=e492]
+            - cell [ref=e493]
+            - cell [ref=e494]
+            - cell [ref=e495]
+            - cell [ref=e496]
+            - cell [ref=e497]
+      - complementary [ref=e498]:
+        - generic [ref=e499]:
+          - generic [ref=e500]: 单元格设置
+          - button "关闭面板" [ref=e501] [cursor=pointer]
+        - generic [ref=e505]:
+          - button "格式" [ref=e506] [cursor=pointer]
+          - button "数据" [ref=e507] [cursor=pointer]
+          - button "高级" [ref=e508] [cursor=pointer]
+        - generic [ref=e509]:
+          - generic [ref=e510]:
+            - generic [ref=e511]: 单元格类型
+            - generic [ref=e512]: 文本
+          - generic [ref=e518]:
+            - generic [ref=e519]: 字体
+            - generic [ref=e520]:
+              - generic [ref=e521]: 思源黑体
+              - generic [ref=e526]: "12"
+          - generic [ref=e531]:
+            - button "bold" [ref=e532] [cursor=pointer]
+            - button "italic" [ref=e537] [cursor=pointer]
+            - button "underline" [ref=e541] [cursor=pointer]
+            - button "fontColor" [ref=e545] [cursor=pointer]
+          - generic [ref=e551]:
+            - generic [ref=e552]: 对齐方式
+            - generic [ref=e553]:
+              - button "left" [ref=e554] [cursor=pointer]
+              - button "center" [ref=e558] [cursor=pointer]
+              - button "right" [ref=e562] [cursor=pointer]
+              - button "justify" [ref=e566] [cursor=pointer]
+            - generic [ref=e570]:
+              - button "top" [ref=e571] [cursor=pointer]
+              - button "middle" [ref=e575] [cursor=pointer]
+              - button "bottom" [ref=e579] [cursor=pointer]
+          - generic [ref=e584]:
+            - generic [ref=e585]: 边框
+            - generic [ref=e586]:
+              - button "valignTop" [ref=e587] [cursor=pointer]
+              - button "alignLeft" [ref=e591] [cursor=pointer]
+              - button "alignRight" [ref=e595] [cursor=pointer]
+              - button "valignBottom" [ref=e599] [cursor=pointer]
+              - generic [ref=e603]: 颜色
+          - generic [ref=e605]: 填充颜色
+        - button "清除格式" [ref=e608] [cursor=pointer]
+    - generic [ref=e612]:
+      - button "添加工作表" [ref=e613] [cursor=pointer]
+      - button "销售数据" [ref=e617] [cursor=pointer]
+      - button "产品信息" [ref=e618] [cursor=pointer]
+      - button "客户资料" [ref=e619] [cursor=pointer]
+      - button "添加工作表" [ref=e620] [cursor=pointer]
+    - generic [ref=e624]:
+      - generic [ref=e625]: 就绪
+      - generic [ref=e627]:
+        - generic [ref=e628]: "平均值: 110.2"
+        - generic [ref=e629]: "计数: 9"
+        - generic [ref=e630]: "求和: 992.0"
+      - generic [ref=e631]:
+        - button "网格视图" [ref=e632] [cursor=pointer]
+        - button "卡片视图" [ref=e639] [cursor=pointer]
+      - generic [ref=e646]:
+        - button "缩小" [ref=e647] [cursor=pointer]
+        - slider [ref=e652]: "100"
+        - button "放大" [ref=e653] [cursor=pointer]
+        - generic [ref=e658]: 100%
+      - button "全屏" [ref=e659] [cursor=pointer]
